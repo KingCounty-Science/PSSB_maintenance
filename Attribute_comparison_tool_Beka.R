@@ -59,14 +59,22 @@ predator_difs<-pssb_on_orwa_traits %>%
   add_column(pred_dif = "pred_dif")
 predator_difs
 
-# 3. How much overlap is there in these taxon lists?
+## 3. How much overlap is there in these taxon lists? ####
 
 clll<- full_join(clinger_difs, longlived_difs, join_by("Taxon Name", "TSN.pssb"))
 clinger_longlived_predators <-full_join(clll, predator_difs, join_by("Taxon Name", TSN.pssb))
 just_difs<-clinger_longlived_predators %>% select(TSN.pssb, clinger_dif, longlived_dif, pred_dif) 
 traits_difs <- full_join(pssb_on_orwa_traits, just_difs, join_by(TSN.pssb)) 
 
-write_csv(traits_difs, "compare_attributes.csv")
+# reorder columns
+traits_difs_ord<- traits_difs |> relocate(c('Taxon Name', 
+                          TSN.pssb, 
+                          "Fore Wisseman 2012-Clinger", "ORWA_clinger", "Habit", clinger_dif,
+                          "Fore Wisseman 2012-Long Lived", LONGLIVED, Life_Cycle, longlived_dif,
+                          "Fore Wisseman 2012-Predator", "ORWA_predator", "FFG",pred_dif), 
+                        .before = Subkingdom)
+
+write_csv(traits_difs_ord, "compare_attributes.csv")
 
 
 
