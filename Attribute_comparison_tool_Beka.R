@@ -73,9 +73,9 @@ traits_difs <- full_join(pssb_on_orwa_traits, just_difs, join_by(TSN.pssb))
 
 # reorder columns so that the spreadsheet is most useful
 traits_difs_ord<- traits_difs |> relocate(c("Order.pssb", "Family.pssb", 'Taxon Name.pssb', TSN.pssb, 
-                          "Fore Wisseman 2012-Clinger.pssb", binary_clinger, "Habit.orwa", clinger_differences,
+                          "Fore Wisseman 2012-Clinger.pssb", "Habit.orwa", binary_clinger, clinger_differences,
                           "Fore Wisseman 2012-Long Lived.pssb", LONGLIVED.orwa, Life_Cycle.orwa, longlived_differences,
-                          "Fore Wisseman 2012-Predator.pssb", binary_predator, "FFG.orwa", pred_differences), 
+                          "Fore Wisseman 2012-Predator.pssb", "FFG.orwa", binary_predator, pred_differences), 
                         .before = Subkingdom.pssb)
 
 write_csv(traits_difs_ord, "compare_attributes.csv")
