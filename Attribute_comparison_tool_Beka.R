@@ -38,7 +38,9 @@ pssb_on_orwa %>% filter(TSN.pssb != TSN.orwa) %>% select("Taxon Name.pssb", "TSN
 
 pssb_on_orwa_traits<-pssb_on_orwa %>% 
   mutate(binary_clinger = if_else((str_detect(Habit.orwa, "CN")), "TRUE", "FALSE", missing = "FALSE"))  %>% #if the habit column detects the string "CN" change the new "ORWA_clinger" column to "TRUE", if not, call it "FALSE, and call any cells in "Habit" missing values "FALSE"
-  mutate(binary_predator = if_else((str_detect(FFG.orwa, "PR")), "TRUE", "FALSE", missing = "FALSE"))  
+  mutate(binary_predator = if_else((str_detect(FFG.orwa, "PR")), "TRUE", "FALSE", missing = "FALSE")) |> 
+  mutate(binary_longlived = if_else(is.na(LONGLIVED.orwa), "FALSE",
+                                    if_else(LONGLIVED.orwa == TRUE, "TRUE", "FALSE"))) 
 pssb_on_orwa_traits
 
 ## 2.1 Are the Clinger traits the same? #create a little table
@@ -51,8 +53,8 @@ clinger_difs
 
 ## 2.2 Are the longlived traits the same? #create a little table
 longlived_difs<-pssb_on_orwa_traits %>% 
-  filter(`Fore Wisseman 2012-Long Lived.pssb` != LONGLIVED.orwa) %>% 
-  select("Taxon Name.pssb", "TSN.pssb", "Fore Wisseman 2012-Long Lived.pssb", "LONGLIVED.orwa", "Life_Cycle.orwa") %>% 
+  filter(`Fore Wisseman 2012-Long Lived.pssb` != binary_longlived) %>% 
+  select("Taxon Name.pssb", "TSN.pssb", "Fore Wisseman 2012-Long Lived.pssb", "LONGLIVED.orwa", "binary_longlived", "Life_Cycle.orwa") %>% 
   add_column(longlived_differences = "longlived_dif")
   
 longlived_difs
@@ -74,7 +76,7 @@ traits_difs <- full_join(pssb_on_orwa_traits, just_difs, join_by(TSN.pssb))
 # reorder columns so that the spreadsheet is most useful
 traits_difs_ord<- traits_difs |> relocate(c("Order.pssb", "Family.pssb", 'Taxon Name.pssb', TSN.pssb, 
                           "Fore Wisseman 2012-Clinger.pssb", "Habit.orwa", binary_clinger, clinger_differences,
-                          "Fore Wisseman 2012-Long Lived.pssb", LONGLIVED.orwa, Life_Cycle.orwa, longlived_differences,
+                          "Fore Wisseman 2012-Long Lived.pssb", LONGLIVED.orwa, binary_longlived, Life_Cycle.orwa, longlived_differences,
                           "Fore Wisseman 2012-Predator.pssb", "FFG.orwa", binary_predator, pred_differences), 
                         .before = Subkingdom.pssb)
 
