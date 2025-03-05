@@ -1,0 +1,706 @@
+Subkingdom,Phylum,Subphylum,Superclass,Class,Subclass,Infraclass,Superorder,Order,Suborder,Infraorder,Superfamily,Family,Subfamily,Custom Subfamily,Tribe,Genus Group,Subtribe,Genus,Species Group,Subgenus,Species,Subspecies,Taxon Name,TSN,Taxonomic Rank,Fore Wisseman 2012-Clinger,Fore Wisseman 2012-Intolerant,Fore Wisseman 2012-Long Lived,Fore Wisseman 2012-Predator,Fore Wisseman 2012-Tolerant
+,Annelida,,,,,,,,,,,,,,,,,,,,,,Annelida,64357,Phylum,FALSE,FALSE,FALSE,FALSE,FALSE
+,Annelida,,,Clitellata,Hirudinea,,,,,,,,,,,,,,,,,,Hirudinea,69290,Subclass,FALSE,FALSE,TRUE,TRUE,FALSE
+,Annelida,,,Clitellata,Hirudinea,Euhirudinea,,Arhynchobdellida,Erpobdelliformes,,,Erpobdellidae,,,,,,,,,,,Erpobdellidae,69438,Family,FALSE,FALSE,TRUE,TRUE,TRUE
+,Annelida,,,Clitellata,Hirudinea,Euhirudinea,,Arhynchobdellida,Erpobdelliformes,,,Erpobdellidae,Erpobdellinae,,,,,Erpobdella,,,,,Erpobdella,69444,Genus,FALSE,FALSE,TRUE,TRUE,TRUE
+,Annelida,,,Clitellata,Hirudinea,Euhirudinea,,Arhynchobdellida,Erpobdelliformes,,,Erpobdellidae,Erpobdellinae,,,,,Mooreobdella,,,,,Mooreobdella,69449,Genus,FALSE,FALSE,TRUE,TRUE,TRUE
+,Annelida,,,Clitellata,Hirudinea,Euhirudinea,,Rhynchobdellida,,,,Glossiphoniidae,,,,,,,,,,,Glossiphoniidae,69357,Family,FALSE,FALSE,TRUE,TRUE,FALSE
+,Annelida,,,Clitellata,Hirudinea,Euhirudinea,,Rhynchobdellida,,,,Glossiphoniidae,Glossiphoniinae,,,,,Glossiphonia,,,complanata,,Glossiphonia complanata,69381,Species,FALSE,FALSE,TRUE,TRUE,FALSE
+,Annelida,,,Clitellata,Hirudinea,Euhirudinea,,Rhynchobdellida,,,,Glossiphoniidae,Haementeriinae,,,,,Helobdella,,,,,Helobdella,69396,Genus,FALSE,FALSE,FALSE,TRUE,FALSE
+,Annelida,,,Clitellata,Hirudinea,Euhirudinea,,Rhynchobdellida,,,,Glossiphoniidae,Haementeriinae,,,,,Helobdella,,,stagnalis,,Helobdella stagnalis,69398,Species,FALSE,FALSE,FALSE,TRUE,FALSE
+,Annelida,,,Clitellata,Hirudinea,Euhirudinea,,Rhynchobdellida,,,,Piscicolidae,,,,,,,,,,,Piscicolidae,69296,Family,FALSE,FALSE,TRUE,TRUE,FALSE
+,Annelida,,,Clitellata,Hirudinea,Euhirudinea,,Rhynchobdellida,,,,Piscicolidae,Piscicolinae,,,,,Piscicola,,,,,Piscicola,69304,Genus,FALSE,FALSE,TRUE,TRUE,FALSE
+,Annelida,,,Clitellata,Oligochaeta,,,,,,,,,,,,,,,,,,Oligochaeta,68422,Subclass,FALSE,FALSE,FALSE,FALSE,FALSE
+,Annelida,,,Clitellata,Oligochaeta,,,Branchiobdellida,,,,,,,,,,,,,,,Branchiobdellida,69168,Order,FALSE,FALSE,FALSE,FALSE,FALSE
+,Annelida,,,Clitellata,Oligochaeta,,,Haplotaxida,Haplotaxina,,,Haplotaxidae,,,,,,Haplotaxis,,,,,Haplotaxis,68505,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Annelida,,,Clitellata,Oligochaeta,,,Haplotaxida,Tubificina,,,Enchytraeidae,,,,,,,,,,,Enchytraeidae,68510,Family,FALSE,FALSE,FALSE,FALSE,FALSE
+,Annelida,,,Clitellata,Oligochaeta,,,Haplotaxida,Tubificina,,,Enchytraeidae,,,,,,Enchytraeus,,,,,Enchytraeus,68531,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Annelida,,,Clitellata,Oligochaeta,,,Haplotaxida,Tubificina,,,Enchytraeidae,,,,,,Fridericia,,,,,Fridericia,204785,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Annelida,,,Clitellata,Oligochaeta,,,Haplotaxida,Tubificina,,,Enchytraeidae,,,,,,Mesenchytraeus,,,,,Mesenchytraeus,68544,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Annelida,,,Clitellata,Oligochaeta,,,Haplotaxida,Tubificina,,,Naididae,,,,,,,,,,,Naididae,68854,Family,FALSE,FALSE,FALSE,FALSE,FALSE
+,Annelida,,,Clitellata,Oligochaeta,,,Haplotaxida,Tubificina,,,Naididae,,,,,,Nais,,,,,Nais,68946,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Annelida,,,Clitellata,Oligochaeta,,,Haplotaxida,Tubificina,,,Naididae,,,,,,Pristina,,,,,Pristina,68876,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Annelida,,,Clitellata,Oligochaeta,,,Haplotaxida,Tubificina,,,Naididae,,,,,,Slavina,,,,,Slavina,68855,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Annelida,,,Clitellata,Oligochaeta,,,Haplotaxida,Tubificina,,,Naididae,,,,,,Stylaria,,,,,Stylaria,68871,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Annelida,,,Clitellata,Oligochaeta,,,Haplotaxida,Tubificina,,,Naididae,Naidinae,,,,,,,,,,Naidinae,-137,Subfamily,FALSE,FALSE,FALSE,FALSE,FALSE
+,Annelida,,,Clitellata,Oligochaeta,,,Haplotaxida,Tubificina,,,Naididae,Tubificinae,,,,,,,,,,Tubificinae,-138,Subfamily,FALSE,FALSE,FALSE,FALSE,FALSE
+,Annelida,,,Clitellata,Oligochaeta,,,Haplotaxida,Tubificina,,,Tubificidae,,,,,,,,,,,Tubificidae,68585,Family,FALSE,FALSE,FALSE,FALSE,FALSE
+,Annelida,,,Clitellata,Oligochaeta,,,Haplotaxida,Tubificina,,,Tubificidae,,,,,,Aulodrilus,,,,,Aulodrilus,68679,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Annelida,,,Clitellata,Oligochaeta,,,Haplotaxida,Tubificina,,,Tubificidae,,,,,,Ilyodrilus,,,,,Ilyodrilus,68660,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Annelida,,,Clitellata,Oligochaeta,,,Haplotaxida,Tubificina,,,Tubificidae,,,,,,Limnodrilus,,,,,Limnodrilus,68638,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Annelida,,,Clitellata,Oligochaeta,,,Haplotaxida,Tubificina,,,Tubificidae,,,,,,Potamothrix,,,,,Potamothrix,68786,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Annelida,,,Clitellata,Oligochaeta,,,Haplotaxida,Tubificina,,,Tubificidae,,,,,,Spirosperma,,,,,Spirosperma,68780,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Annelida,,,Clitellata,Oligochaeta,,,Lumbriculida,,,,Lumbriculidae,,,,,,,,,,,Lumbriculidae,68440,Family,FALSE,FALSE,FALSE,FALSE,FALSE
+,Annelida,,,Clitellata,Oligochaeta,,,Lumbriculida,,,,Lumbriculidae,,,,,,Eclipidrilus,,,,,Eclipidrilus,68473,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Annelida,,,Clitellata,Oligochaeta,,,Lumbriculida,,,,Lumbriculidae,,,,,,Eiseniella,,,tetraedra,,Eiseniella tetraedra,-121,Species,FALSE,FALSE,FALSE,FALSE,FALSE
+,Annelida,,,Clitellata,Oligochaeta,,,Lumbriculida,,,,Lumbriculidae,,,,,,Kincaidiana,,,,,Kincaidiana,68470,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Annelida,,,Clitellata,Oligochaeta,,,Lumbriculida,,,,Lumbriculidae,,,,,,Lumbriculus,,,,,Lumbriculus,68441,Genus,FALSE,FALSE,TRUE,FALSE,FALSE
+,Annelida,,,Polychaeta,,,,,,,,,,,,,,,,,,,Polychaeta,64358,Class,FALSE,FALSE,FALSE,FALSE,FALSE
+,Annelida,,,Polychaeta,Palpata,,,Aciculata,Phyllodocida,,,Polynoidae,,,,,,Lepidonotus,,,,,Lepidonotus,64599,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Annelida,,,Polychaeta,Palpata,,,Aciculata,Phyllodocida,,,Sphaerodoridae,,,,,,,,,,,Sphaerodoridae,66064,Family,FALSE,FALSE,FALSE,FALSE,FALSE
+,Annelida,,,Polychaeta,Palpata,,,Aciculata,Phyllodocida,,,Syllidae,,,,,,Procerastea,,,nematodes,,Procerastea nematodes,65869,Species,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Chelicerata,,Arachnida,,,,,,,,,,,,,,,,,,,Arachnida,82708,Class,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Chelicerata,,Arachnida,Acari,,,,,,,,,,,,,,,,,,Acari,733321,Subclass,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Chelicerata,,Arachnida,Acari,,Acariformes,Sarcoptiformes,Oribatida,,,,,,,,,,,,,,Oribatida,733326,Suborder,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Chelicerata,,Arachnida,Acari,,Acariformes,Trombidiformes,,,,,,,,,,,,,,,Trombidiformes,82769,Order,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Chelicerata,,Arachnida,Acari,,Acariformes,Trombidiformes,Prostigmata,,,Arrenuridae,,,,,,,,,,,Arrenuridae,82862,Family,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Chelicerata,,Arachnida,Acari,,Acariformes,Trombidiformes,Prostigmata,,,Axonopsidae,,,,,,Brachypoda,,,,,Brachypoda,83444,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Chelicerata,,Arachnida,Acari,,Acariformes,Trombidiformes,Prostigmata,,,Hygrobatidae,,,,,,,,,,,Hygrobatidae,83281,Family,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Chelicerata,,Arachnida,Acari,,Acariformes,Trombidiformes,Prostigmata,,,Hygrobatidae,,,,,,Atractides,,,,,Atractides,83282,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Chelicerata,,Arachnida,Acari,,Acariformes,Trombidiformes,Prostigmata,,,Hygrobatidae,,,,,,Hygrobates,,,,,Hygrobates,83297,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Chelicerata,,Arachnida,Acari,,Acariformes,Trombidiformes,Prostigmata,,,Lebertiidae,,,,,,Lebertia,,,,,Lebertia,83034,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Chelicerata,,Arachnida,Acari,,Acariformes,Trombidiformes,Prostigmata,,,Limnesiidae,,,,,,Limnesia,,,,,Limnesia,83051,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Chelicerata,,Arachnida,Acari,,Acariformes,Trombidiformes,Prostigmata,,,Mideopsidae,,,,,,Mideopsis,,,,,Mideopsis,83479,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Chelicerata,,Arachnida,Acari,,Acariformes,Trombidiformes,Prostigmata,,,Oxidae,,,,,,Oxus,,,,,Oxus,83244,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Chelicerata,,Arachnida,Acari,,Acariformes,Trombidiformes,Prostigmata,,,Pionidae,,,,,,,,,,,Pionidae,83330,Family,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Chelicerata,,Arachnida,Acari,,Acariformes,Trombidiformes,Prostigmata,,,Protziidae,,,,,,Protzia,,,,,Protzia,83170,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Chelicerata,,Arachnida,Acari,,Acariformes,Trombidiformes,Prostigmata,,,Protziidae,,,,,,Protzia,,,exima,,Protzia exima,83171,Species,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Chelicerata,,Arachnida,Acari,,Acariformes,Trombidiformes,Prostigmata,,,Protziidae,,,,,,Wandesia,,,,,Wandesia,83172,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Chelicerata,,Arachnida,Acari,,Acariformes,Trombidiformes,Prostigmata,,,Sperchontidae,,,,,,Sperchon,,,,,Sperchon,83006,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Chelicerata,,Arachnida,Acari,,Acariformes,Trombidiformes,Prostigmata,,,Sperchontidae,,,,,,Sperchonopsis,,,,,Sperchonopsis,83029,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Chelicerata,,Arachnida,Acari,,Acariformes,Trombidiformes,Prostigmata,,,Torrenticolidae,,,,,,Testudacarus,,,,,Testudacarus,83250,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Chelicerata,,Arachnida,Acari,,Acariformes,Trombidiformes,Prostigmata,,,Torrenticolidae,,,,,,Torrenticola,,,,,Torrenticola,83254,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Crustacea,,Branchiopoda,Phyllopoda,,,Diplostraca,Cladocera,,,,,,,,,,,,,,Cladocera,83832,Suborder,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Crustacea,,Branchiopoda,Phyllopoda,,,Diplostraca,Cladocera,Anomopoda,,Daphniidae,,,,,,,,,,,Daphniidae,83872,Family,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Crustacea,,Malacostraca,Eumalacostraca,,Eucarida,Decapoda,,,,,,,,,,,,,,,Decapoda,95599,Order,FALSE,FALSE,TRUE,FALSE,FALSE
+,Arthropoda,Crustacea,,Malacostraca,Eumalacostraca,,Eucarida,Decapoda,Pleocyemata,Astacidea,Astacoidea,Astacidae,,,,,,Pacifastacus,,,,,Pacifastacus,97325,Genus,FALSE,FALSE,TRUE,FALSE,FALSE
+,Arthropoda,Crustacea,,Malacostraca,Eumalacostraca,,Eucarida,Decapoda,Pleocyemata,Astacidea,Astacoidea,Astacidae,,,,,,Pacifastacus,,Pacifastacus,leniusculus,,Pacifastacus leniusculus,97326,Species,FALSE,FALSE,TRUE,FALSE,FALSE
+,Arthropoda,Crustacea,,Malacostraca,Eumalacostraca,,Eucarida,Decapoda,Pleocyemata,Astacidea,Astacoidea,Cambaridae,,,,,,,,,,,Cambaridae,97336,Family,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Crustacea,,Malacostraca,Eumalacostraca,,Peracarida,Amphipoda,,,,,,,,,,,,,,,Amphipoda,93294,Order,FALSE,FALSE,FALSE,FALSE,TRUE
+,Arthropoda,Crustacea,,Malacostraca,Eumalacostraca,,Peracarida,Amphipoda,Gammaridea,,,Anisogammaridae,,,,,,,,,,,Anisogammaridae,203113,Family,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Crustacea,,Malacostraca,Eumalacostraca,,Peracarida,Amphipoda,Gammaridea,,,Anisogammaridae,,,,,,Eogammarus,,,,,Eogammarus,93843,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Crustacea,,Malacostraca,Eumalacostraca,,Peracarida,Amphipoda,Gammaridea,,,Anisogammaridae,,,,,,Ramellogammarus,,,,,Ramellogammarus,93953,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Crustacea,,Malacostraca,Eumalacostraca,,Peracarida,Amphipoda,Gammaridea,,,Corophiidae,,,,,,Americorophium,,,,,Americorophium,656484,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Crustacea,,Malacostraca,Eumalacostraca,,Peracarida,Amphipoda,Gammaridea,,,Corophiidae,,,,,,Corophium,,,,,Corophium,93589,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Crustacea,,Malacostraca,Eumalacostraca,,Peracarida,Amphipoda,Gammaridea,,,Crangonyctidae,,,,,,,,,,,Crangonyctidae,95080,Family,FALSE,FALSE,FALSE,FALSE,TRUE
+,Arthropoda,Crustacea,,Malacostraca,Eumalacostraca,,Peracarida,Amphipoda,Gammaridea,,,Crangonyctidae,,,,,,Crangonyx,,,,,Crangonyx,95081,Genus,FALSE,FALSE,FALSE,FALSE,TRUE
+,Arthropoda,Crustacea,,Malacostraca,Eumalacostraca,,Peracarida,Amphipoda,Gammaridea,,,Gammaridae,,,,,,Gammarus,,,,,Gammarus,93773,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Crustacea,,Malacostraca,Eumalacostraca,,Peracarida,Amphipoda,Gammaridea,,,Hyalellidae,,,,,,Hyalella,,,,,Hyalella,94025,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Crustacea,,Malacostraca,Eumalacostraca,,Peracarida,Amphipoda,Gammaridea,,,Hyalellidae,,,,,,Hyalella,,,azteca,,Hyalella azteca,94026,Species,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Crustacea,,Malacostraca,Eumalacostraca,,Peracarida,Isopoda,,,,,,,,,,,,,,,Isopoda,92120,Order,FALSE,FALSE,FALSE,FALSE,TRUE
+,Arthropoda,Crustacea,,Malacostraca,Eumalacostraca,,Peracarida,Isopoda,Asellota,,Aselloidea,Asellidae,,,,,,,,,,,Asellidae,92657,Family,FALSE,FALSE,FALSE,FALSE,TRUE
+,Arthropoda,Crustacea,,Malacostraca,Eumalacostraca,,Peracarida,Isopoda,Asellota,,Aselloidea,Asellidae,,,,,,Caecidotea,,,,,Caecidotea,92686,Genus,FALSE,FALSE,FALSE,FALSE,TRUE
+,Arthropoda,Crustacea,,Malacostraca,Eumalacostraca,,Peracarida,Isopoda,Flabellifera,,,Sphaeromatidae,,,,,,Gnorimosphaeroma,,,,,Gnorimosphaeroma,92295,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Crustacea,,Maxillopoda,Copepoda,,,,,,,,,,,,,,,,,,Copepoda,85257,Subclass,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Crustacea,,Ostracoda,,,,,,,,,,,,,,,,,,,Ostracoda,84195,Class,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Entognatha,,,,Collembola,,,,,,,,,,,,,,,Collembola,99237,Order,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Coleoptera,,,,,,,,,,,,,,,Coleoptera,109216,Order,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Coleoptera,Adephaga,,,Amphizoidae,,,,,,Amphizoa,,,,,Amphizoa,111953,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Coleoptera,Adephaga,,,Dytiscidae,,,,,,,,,,,Dytiscidae,111963,Family,FALSE,FALSE,FALSE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Coleoptera,Adephaga,,,Dytiscidae,Agabinae,,Agabini,,,Agabinus,,,,,Agabinus,112068,Genus,FALSE,FALSE,FALSE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Coleoptera,Adephaga,,,Dytiscidae,Agabinae,,Agabini,,,Agabus,,,,,Agabus,111966,Genus,FALSE,FALSE,FALSE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Coleoptera,Adephaga,,,Dytiscidae,Colymbetinae,,Colymbetini,,,Rhantus,,,,,Rhantus,112086,Genus,FALSE,FALSE,FALSE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Coleoptera,Adephaga,,,Dytiscidae,Hydroporinae,,,,,,,,,,Hydroporinae,678402,Subfamily,FALSE,FALSE,FALSE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Coleoptera,Adephaga,,,Dytiscidae,Hydroporinae,,Hydroporini,,,Heterosternuta,,,,,Heterosternuta,728249,Genus,FALSE,FALSE,FALSE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Coleoptera,Adephaga,,,Dytiscidae,Hydroporinae,,Hydroporini,,,Hydroporus,,,,,Hydroporus,112390,Genus,FALSE,FALSE,FALSE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Coleoptera,Adephaga,,,Dytiscidae,Hydroporinae,,Hydroporini,,,Oreodytes,,,,,Oreodytes,112314,Genus,FALSE,FALSE,FALSE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Coleoptera,Adephaga,,,Dytiscidae,Hydroporinae,,Hydroporini,,,Sanfilippodytes,,,,,Sanfilippodytes,728253,Genus,FALSE,FALSE,FALSE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Coleoptera,Adephaga,,,Dytiscidae,Hydroporinae,,Hydrovatini,,,Hydrovatus,,,,,Hydrovatus,112257,Genus,FALSE,FALSE,FALSE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Coleoptera,Adephaga,,,Dytiscidae,Hydroporinae,,Hygrotini,,,Hygrotus,,,,,Hygrotus,112200,Genus,FALSE,FALSE,FALSE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Coleoptera,Adephaga,,,Dytiscidae,Laccophilinae,,Laccophilini,,,Laccophilus,,,,,Laccophilus,112278,Genus,FALSE,FALSE,FALSE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Coleoptera,Adephaga,,,Haliplidae,,,,,,,,,,,Haliplidae,111857,Family,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Coleoptera,Adephaga,,,Haliplidae,,,,,,Brychius,,,,,Brychius,111947,Genus,TRUE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Coleoptera,Adephaga,,,Haliplidae,,,,,,Haliplus,,,,,Haliplus,111858,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Coleoptera,Adephaga,,,Haliplidae,,,,,,Peltodytes,,,,,Peltodytes,111923,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Coleoptera,Myxophaga,,,Microsporidae,,,,,,,,,,,Microsporidae,678313,Family,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Coleoptera,Polyphaga,Cucujiformia,Curculionoidea,Curculionidae,,,,,,,,,,,Curculionidae,114666,Family,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Coleoptera,Polyphaga,Elateriformia,Byrrhoidea,Elmidae,,,,,,,,,,,Elmidae,114093,Family,TRUE,FALSE,TRUE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Coleoptera,Polyphaga,Elateriformia,Byrrhoidea,Elmidae,,,,,,Ampumixis,,,,,Ampumixis,114196,Genus,TRUE,FALSE,TRUE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Coleoptera,Polyphaga,Elateriformia,Byrrhoidea,Elmidae,,,,,,Ampumixis,,,dispar,,Ampumixis dispar,114197,Species,TRUE,FALSE,TRUE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Coleoptera,Polyphaga,Elateriformia,Byrrhoidea,Elmidae,,,,,,Cleptelmis,,,,,Cleptelmis,114164,Genus,TRUE,FALSE,TRUE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Coleoptera,Polyphaga,Elateriformia,Byrrhoidea,Elmidae,,,,,,Cleptelmis,,,addenda,,Cleptelmis addenda,114166,Species,TRUE,FALSE,TRUE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Coleoptera,Polyphaga,Elateriformia,Byrrhoidea,Elmidae,,,,,,Cleptelmis,,,ornata,,Cleptelmis ornata,114165,Species,TRUE,FALSE,TRUE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Coleoptera,Polyphaga,Elateriformia,Byrrhoidea,Elmidae,,,,,,Heterlimnius,,,,,Heterlimnius,114167,Genus,TRUE,FALSE,TRUE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Coleoptera,Polyphaga,Elateriformia,Byrrhoidea,Elmidae,,,,,,Heterlimnius,,,corpulentus,,Heterlimnius corpulentus,114169,Species,TRUE,FALSE,TRUE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Coleoptera,Polyphaga,Elateriformia,Byrrhoidea,Elmidae,,,,,,Heterlimnius,,,koebelei,,Heterlimnius koebelei,114168,Species,TRUE,FALSE,TRUE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Coleoptera,Polyphaga,Elateriformia,Byrrhoidea,Elmidae,,,,,,Lara,,,,,Lara,114137,Genus,TRUE,FALSE,TRUE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Coleoptera,Polyphaga,Elateriformia,Byrrhoidea,Elmidae,,,,,,Lara,,,avara,,Lara avara,114139,Species,TRUE,FALSE,TRUE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Coleoptera,Polyphaga,Elateriformia,Byrrhoidea,Elmidae,,,,,,Microcylloepus,,,,,Microcylloepus,114146,Genus,TRUE,FALSE,TRUE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Coleoptera,Polyphaga,Elateriformia,Byrrhoidea,Elmidae,,,,,,Narpus,,,,,Narpus,114142,Genus,TRUE,FALSE,TRUE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Coleoptera,Polyphaga,Elateriformia,Byrrhoidea,Elmidae,,,,,,Narpus,,,concolor,,Narpus concolor,114144,Species,TRUE,FALSE,TRUE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Coleoptera,Polyphaga,Elateriformia,Byrrhoidea,Elmidae,,,,,,Optioservus,,,,,Optioservus,114177,Genus,TRUE,FALSE,TRUE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Coleoptera,Polyphaga,Elateriformia,Byrrhoidea,Elmidae,,,,,,Optioservus,,,quadrimaculatus,,Optioservus quadrimaculatus,114180,Species,TRUE,FALSE,TRUE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Coleoptera,Polyphaga,Elateriformia,Byrrhoidea,Elmidae,,,,,,Zaitzevia,,,,,Zaitzevia,114205,Genus,TRUE,FALSE,TRUE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Coleoptera,Polyphaga,Elateriformia,Byrrhoidea,Heteroceridae,,,,,,,,,,,Heteroceridae,114262,Family,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Coleoptera,Polyphaga,Elateriformia,Byrrhoidea,Psephenidae,Eubriinae,,,,,Dicranopselaphus,,,,,Dicranopselaphus,114091,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Coleoptera,Polyphaga,Elateriformia,Scirtoidea,Scirtidae,,,,,,,,,,,Scirtidae,113924,Family,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Coleoptera,Polyphaga,Staphyliniformia,Hydrophiloidea,Helophoridae,,,,,,Helophorus,,,,,Helophorus,113106,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Coleoptera,Polyphaga,Staphyliniformia,Hydrophiloidea,Hydrochidae,,,,,,Hydrochus,,,,,Hydrochus,113166,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Coleoptera,Polyphaga,Staphyliniformia,Hydrophiloidea,Hydrophilidae,,,,,,,,,,,Hydrophilidae,112811,Family,FALSE,FALSE,FALSE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Coleoptera,Polyphaga,Staphyliniformia,Hydrophiloidea,Hydrophilidae,Hydrophilinae,,Anacaenini,,,Anacaena,,,,,Anacaena,112878,Genus,FALSE,FALSE,FALSE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Coleoptera,Polyphaga,Staphyliniformia,Hydrophiloidea,Hydrophilidae,Hydrophilinae,,Anacaenini,,,Crenitis,,,,,Crenitis,113220,Genus,FALSE,FALSE,FALSE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Coleoptera,Polyphaga,Staphyliniformia,Hydrophiloidea,Hydrophilidae,Hydrophilinae,,Anacaenini,,,Paracymus,,,,,Paracymus,112909,Genus,FALSE,FALSE,FALSE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Coleoptera,Polyphaga,Staphyliniformia,Hydrophiloidea,Hydrophilidae,Hydrophilinae,,Hydrophilini,,,Cymbiodyta,,,,,Cymbiodyta,113017,Genus,FALSE,FALSE,FALSE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Coleoptera,Polyphaga,Staphyliniformia,Hydrophiloidea,Hydrophilidae,Hydrophilinae,,Laccobiini,,,Laccobius,,,,,Laccobius,112858,Genus,FALSE,FALSE,FALSE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Coleoptera,Polyphaga,Staphyliniformia,Hydrophiloidea,Hydrophilidae,Hydrophilinae,,Sperchopsini,,,Ametor,,,,,Ametor,112890,Genus,FALSE,FALSE,FALSE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Coleoptera,Polyphaga,Staphyliniformia,Staphylinoidea,Hydraenidae,,,,,,Hydraena,,,,,Hydraena,112757,Genus,TRUE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Coleoptera,Polyphaga,Staphyliniformia,Staphylinoidea,Hydraenidae,,,,,,Limnebius,,,,,Limnebius,112768,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Coleoptera,Polyphaga,Staphyliniformia,Staphylinoidea,Hydraenidae,,,,,,Ochthebius,,,,,Ochthebius,112777,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Coleoptera,Polyphaga,Staphyliniformia,Staphylinoidea,Staphylinidae,,,,,,,,,,,Staphylinidae,113265,Family,TRUE,FALSE,FALSE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,,,,,,,,,,,,,,,Diptera,118831,Order,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Brachycera,,,,,,,,,,,,,,Brachycera,130052,Suborder,FALSE,FALSE,FALSE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Brachycera,Muscomorpha,,Canaceidae,,,,,,,,,,,Canaceidae,148316,Family,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Brachycera,Muscomorpha,,Dolichopodidae,,,,,,,,,,,Dolichopodidae,136824,Family,FALSE,FALSE,FALSE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Brachycera,Muscomorpha,,Empididae,,,,,,,,,,,Empididae,135830,Family,TRUE,FALSE,FALSE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Brachycera,Muscomorpha,,Empididae,,,,,,Empididae Genus A,,,,,Empididae Genus A,-131,Genus,TRUE,FALSE,FALSE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Brachycera,Muscomorpha,,Empididae,,,,,,Empididae Genus B,,,,,Empididae Genus B,-132,Genus,TRUE,FALSE,FALSE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Brachycera,Muscomorpha,,Empididae,Clinocerinae,,,,,Clinocera,,,,,Clinocera,135849,Genus,TRUE,FALSE,FALSE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Brachycera,Muscomorpha,,Empididae,Clinocerinae,,,,,Roederiodes,,,,,Roederiodes,135893,Genus,TRUE,FALSE,FALSE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Brachycera,Muscomorpha,,Empididae,Clinocerinae,,,,,Trichoclinocera,,,,,Trichoclinocera,135903,Genus,TRUE,FALSE,FALSE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Brachycera,Muscomorpha,,Empididae,Clinocerinae,,,,,Wiedemannia,,,,,Wiedemannia,135920,Genus,TRUE,FALSE,FALSE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Brachycera,Muscomorpha,,Empididae,Hemerodromiinae,,,,,,,,,,Hemerodromiinae,136290,Subfamily,TRUE,FALSE,FALSE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Brachycera,Muscomorpha,,Empididae,Hemerodromiinae,,Hemerodromiini,,,Chelifera,,,,,Chelifera,136305,Genus,TRUE,FALSE,FALSE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Brachycera,Muscomorpha,,Empididae,Hemerodromiinae,,Hemerodromiini,,,Hemerodromia,,,,,Hemerodromia,136327,Genus,TRUE,FALSE,FALSE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Brachycera,Muscomorpha,,Empididae,Hemerodromiinae,,Hemerodromiini,,,Neoplasta,,,,,Neoplasta,136352,Genus,TRUE,FALSE,FALSE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Brachycera,Muscomorpha,,Empididae,Hemerodromiinae,,Hemerodromiini,Chelifera/Metachela,,,,,,,Chelifera/Metachela,-5,Genus Group,TRUE,FALSE,FALSE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Brachycera,Muscomorpha,,Empididae,Oreogetoninae,,,,,Oreogeton,,,,,Oreogeton,136377,Genus,TRUE,TRUE,TRUE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Brachycera,Muscomorpha,,Ephydridae,,,,,,,,,,,Ephydridae,146893,Family,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Brachycera,Muscomorpha,,Muscidae,,,,,,,,,,,Muscidae,150025,Family,FALSE,FALSE,FALSE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Brachycera,Muscomorpha,,Phoridae,,,,,,,,,,,Phoridae,138921,Family,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Brachycera,Muscomorpha,,Sciomyzidae,,,,,,,,,,,Sciomyzidae,144653,Family,FALSE,FALSE,FALSE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Brachycera,Muscomorpha,,Syrphidae,,,,,,,,,,,Syrphidae,139621,Family,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Brachycera,Stratiomyomorpha,,Stratiomyidae,,,,,,,,,,,Stratiomyidae,130150,Family,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Brachycera,Stratiomyomorpha,,Stratiomyidae,Beridinae,,,,,Allognosta,,,,,Allognosta,130160,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Brachycera,Stratiomyomorpha,,Stratiomyidae,Stratiomyinae,,Oxycerini,,,Caloparyphus,,,,,Caloparyphus,130409,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Brachycera,Tabanomorpha,,Athericidae,,,,,,,,,,,Athericidae,130928,Family,FALSE,FALSE,FALSE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Brachycera,Tabanomorpha,,Athericidae,,,,,,Atherix,,,,,Atherix,130929,Genus,TRUE,FALSE,FALSE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Brachycera,Tabanomorpha,,Pelecorhynchidae,,,,,,Glutops,,,,,Glutops,130915,Genus,FALSE,FALSE,TRUE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Brachycera,Tabanomorpha,,Pelecorhynchidae,,,,,,Glutops,,,bandus,,Glutops bandus,130916,Species,FALSE,FALSE,FALSE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Brachycera,Tabanomorpha,,Tabanidae,,,,,,,,,,,Tabanidae,130934,Family,FALSE,FALSE,FALSE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Brachycera,Tabanomorpha,,Tabanidae,Chrysopsinae,,Chrysopsini,,,Chrysops,,,,,Chrysops,131078,Genus,FALSE,FALSE,FALSE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Brachycera,Tabanomorpha,,Tabanidae,Tabaninae,,Tabanini,,,Hybomitra,,,,,Hybomitra,131321,Genus,FALSE,FALSE,FALSE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,,,,,,,,,,,,,,Nematocera,118832,Suborder,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Bibionomorpha,,Mycetophilidae,,,,,,,,,,,Mycetophilidae,121636,Family,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Blephariceromorpha,,Blephariceridae,,,,,,,,,,,Blephariceridae,121227,Family,TRUE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Blephariceromorpha,,Blephariceridae,Blepharicerinae,,Blepharicerini,,,Agathon,,,,,Agathon,121230,Genus,TRUE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Blephariceromorpha,,Blephariceridae,Blepharicerinae,,Blepharicerini,,,Blepharicera,,,,,Blepharicera,121255,Genus,TRUE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Blephariceromorpha,,Deuterophlebiidae,,,,,,Deuterophlebia,,,,,Deuterophlebia,121287,Genus,TRUE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Ceratopogonidae,,,,,,,,,,,Ceratopogonidae,127076,Family,FALSE,FALSE,FALSE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Ceratopogonidae,Ceratopogoninae,,,,,,,,,,Ceratopogoninae,127338,Subfamily,FALSE,FALSE,FALSE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Ceratopogonidae,Ceratopogoninae,,Ceratopogonini,,,Ceratopogon,,,,,Ceratopogon,127564,Genus,FALSE,FALSE,FALSE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Ceratopogonidae,Ceratopogoninae,,Ceratopogonini,,,Monohelea,,,,,Monohelea,127575,Genus,FALSE,FALSE,FALSE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Ceratopogonidae,Ceratopogoninae,,Ceratopogonini,,,Serromyia,,,,,Serromyia,127614,Genus,FALSE,FALSE,FALSE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Ceratopogonidae,Ceratopogoninae,,Culicoidini,,,Culicoides,,,,,Culicoides,127340,Genus,FALSE,FALSE,FALSE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Ceratopogonidae,Ceratopogoninae,,Palpomyiini,,,,,,,,Palpomyiini,127774,Tribe,FALSE,FALSE,FALSE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Ceratopogonidae,Ceratopogoninae,,Palpomyiini,,,Bezzia,,,,,Bezzia,127778,Genus,FALSE,FALSE,FALSE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Ceratopogonidae,Ceratopogoninae,,Palpomyiini,Bezzia/Palpomyia,,,,,,,Bezzia/Palpomyia,-140,Genus Group,FALSE,FALSE,FALSE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Ceratopogonidae,Ceratopogoninae,,Sphaeromiini,,,Probezzia,,,,,Probezzia,127729,Genus,FALSE,FALSE,FALSE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Ceratopogonidae,Ceratopogoninae,,Sphaeromiini,,,Sphaeromias,,,,,Sphaeromias,127761,Genus,FALSE,FALSE,FALSE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Ceratopogonidae,Forcipomyiinae,,,,,,,,,,Forcipomyiinae,127112,Subfamily,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Ceratopogonidae,Forcipomyiinae,,,,,Atrichopogon,,,,,Atrichopogon,127113,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Ceratopogonidae,Forcipomyiinae,,,,,Forcipomyia,,,,,Forcipomyia,127152,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Chaoboridae,,,,,,,,,,,Chaoboridae,125886,Family,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Chaoboridae,Chaoborinae,,,,,Chaoborus,,,,,Chaoborus,125904,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Chironomidae,,,,,,,,,,,Chironomidae,127917,Family,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Chironomidae,Chironominae,,,,,,,,,,Chironominae,129228,Subfamily,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Chironomidae,Chironominae,,Chironomini,,,,,,,,Chironomini,129229,Tribe,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Chironomidae,Chironominae,,Chironomini,,,Chironomus,,,,,Chironomus,129254,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Chironomidae,Chironominae,,Chironomini,,,Cryptochironomus,,,,,Cryptochironomus,129368,Genus,FALSE,FALSE,FALSE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Chironomidae,Chironominae,,Chironomini,,,Demicryptochironomus,,,,,Demicryptochironomus,129421,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Chironomidae,Chironominae,,Chironomini,,,Dicrotendipes,,,,,Dicrotendipes,129428,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Chironomidae,Chironominae,,Chironomini,,,Glyptotendipes,,,,,Glyptotendipes,129483,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Chironomidae,Chironominae,,Chironomini,,,Microtendipes,,,,,Microtendipes,129535,Genus,TRUE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Chironomidae,Chironominae,,Chironomini,,,Microtendipes,Microtendipes Pedellus Group,,,,Microtendipes Pedellus Group,-24,Species Group,TRUE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Chironomidae,Chironominae,,Chironomini,,,Microtendipes,Microtendipes Rydalensis Group,,,,Microtendipes Rydalensis Group,-141,Species Group,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Chironomidae,Chironominae,,Chironomini,,,Paracladopelma,,,,,Paracladopelma,129597,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Chironomidae,Chironominae,,Chironomini,,,Paratendipes,,,,,Paratendipes,129623,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Chironomidae,Chironominae,,Chironomini,,,Phaenopsectra,,,,,Phaenopsectra,129637,Genus,TRUE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Chironomidae,Chironominae,,Chironomini,,,Polypedilum,,,,,Polypedilum,129657,Genus,TRUE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Chironomidae,Chironominae,,Chironomini,,,Robackia,,,,,Robackia,129730,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Chironomidae,Chironominae,,Chironomini,,,Saetheria,,,,,Saetheria,129735,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Chironomidae,Chironominae,,Chironomini,,,Sergentia,,,,,Sergentia,129739,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Chironomidae,Chironominae,,Chironomini,,,Stenochironomus,,,,,Stenochironomus,129746,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Chironomidae,Chironominae,,Chironomini,,,Stictochironomus,,,,,Stictochironomus,129785,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Chironomidae,Chironominae,,Chironomini,,,Tribelos,,,,,Tribelos,129820,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Chironomidae,Chironominae,,Chironomini,,,Tribelos,,,jucundus,,Tribelos jucundus,129827,Species,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Chironomidae,Chironominae,,Pseudochironomini,,,Pseudochironomus,,,,,Pseudochironomus,129851,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Chironomidae,Chironominae,,Tanytarsini,,,,,,,,Tanytarsini,129872,Tribe,TRUE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Chironomidae,Chironominae,,Tanytarsini,,,Cladotanytarsus,,,,,Cladotanytarsus,129873,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Chironomidae,Chironominae,,Tanytarsini,,,Constempellina,,,brevicosta,,Constempellina brevicosta,129885,Species,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Chironomidae,Chironominae,,Tanytarsini,,,Micropsectra,,,,,Micropsectra,129890,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Chironomidae,Chironominae,,Tanytarsini,,,Paratanytarsus,,,,,Paratanytarsus,129935,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Chironomidae,Chironominae,,Tanytarsini,,,Rheotanytarsus,,,,,Rheotanytarsus,129952,Genus,TRUE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Chironomidae,Chironominae,,Tanytarsini,,,Stempellina,,,,,Stempellina,129962,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Chironomidae,Chironominae,,Tanytarsini,,,Stempellinella,,,,,Stempellinella,129969,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Chironomidae,Chironominae,,Tanytarsini,,,Sublettea,,,,,Sublettea,129975,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Chironomidae,Chironominae,,Tanytarsini,,,Sublettea,,,coffmani,,Sublettea coffmani,129976,Species,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Chironomidae,Chironominae,,Tanytarsini,,,Tanytarsus,,,,,Tanytarsus,129978,Genus,TRUE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Chironomidae,Diamesinae,,,,,,,,,,Diamesinae,128341,Subfamily,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Chironomidae,Diamesinae,,Boreoheptagyiini,,,Boreoheptagyia,,,,,Boreoheptagyia,128343,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Chironomidae,Diamesinae,,Diamesini,,,Diamesa,,,,,Diamesa,128355,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Chironomidae,Diamesinae,,Diamesini,,,Pagastia,,,,,Pagastia,128401,Genus,FALSE,FALSE,FALSE,FALSE,TRUE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Chironomidae,Diamesinae,,Diamesini,,,Potthastia,,,,,Potthastia,128408,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Chironomidae,Diamesinae,,Diamesini,,,Potthastia,Potthastia Gaedii Group,,,,Potthastia Gaedii Group,-29,Species Group,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Chironomidae,Diamesinae,,Diamesini,,,Potthastia,Potthastia Longimanus Group,,,,Potthastia Longimanus Group,-30,Species Group,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Chironomidae,Diamesinae,,Diamesini,,,Pseudodiamesa,,,,,Pseudodiamesa,128416,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Chironomidae,Diamesinae,,Protanypini,,,Protanypus,,,,,Protanypus,128431,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Chironomidae,Orthocladiinae,,,,,,,,,,Orthocladiinae,128457,Subfamily,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Chironomidae,Orthocladiinae,,,,,,,,Orthocladiinae Genus 5 (Coffman and Ferrington),,Orthocladiinae Genus 5 (Coffman and Ferrington),-136,Species,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Chironomidae,Orthocladiinae,,,,,,,,Orthocladiinae sp. RAI # 0004,,Orthocladiinae sp. RAI # 0004,-135,Species,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Chironomidae,Orthocladiinae,,,,,Acricotopus,,,,,Acricotopus,128463,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Chironomidae,Orthocladiinae,,,,,Brillia,,,,,Brillia,128477,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Chironomidae,Orthocladiinae,,,,,Cardiocladius,,,,,Cardiocladius,128511,Genus,TRUE,FALSE,FALSE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Chironomidae,Orthocladiinae,,,,,Chaetocladius,,,,,Chaetocladius,128520,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Chironomidae,Orthocladiinae,,,,,Corynoneura,,,,,Corynoneura,128563,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Chironomidae,Orthocladiinae,,,,,Cricotopus,,,,,Cricotopus,128575,Genus,TRUE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Chironomidae,Orthocladiinae,,,,,Cricotopus,,Cricotopus,,,Cricotopus (Cricotopus),568521,Subgenus,TRUE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Chironomidae,Orthocladiinae,,,,,Cricotopus,,Cricotopus,bicinctus,,Cricotopus bicinctus,128583,Species,TRUE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Chironomidae,Orthocladiinae,,,,,Cricotopus,,Cricotopus,trifascia,,Cricotopus trifascia,128659,Species,TRUE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Chironomidae,Orthocladiinae,,,,,Cricotopus,,Isocladius,,,Cricotopus (Isocladius),568515,Subgenus,TRUE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Chironomidae,Orthocladiinae,,,,,Cricotopus,,Nostococladius,,,Cricotopus (Nostococladius),568516,Subgenus,TRUE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Chironomidae,Orthocladiinae,,,,,Cricotopus,Cricotopus Bicinctus Group,,,,Cricotopus Bicinctus Group,-7,Species Group,TRUE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Chironomidae,Orthocladiinae,,,,,Cricotopus,Cricotopus Trifascia Group,,,,Cricotopus Trifascia Group,-9,Species Group,TRUE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Chironomidae,Orthocladiinae,,,,,Diplocladius,,,,,Diplocladius,128670,Genus,FALSE,FALSE,FALSE,FALSE,TRUE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Chironomidae,Orthocladiinae,,,,,Diplocladius,,,cultriger,,Diplocladius cultriger,128671,Species,FALSE,FALSE,FALSE,FALSE,TRUE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Chironomidae,Orthocladiinae,,,,,Eukiefferiella,,,,,Eukiefferiella,128689,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Chironomidae,Orthocladiinae,,,,,Eukiefferiella,,,cf. tirolensis,,Eukiefferiella cf. tirolensis,-127,Species,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Chironomidae,Orthocladiinae,,,,,Eukiefferiella,,,claripennis,,Eukiefferiella claripennis,128693,Species,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Chironomidae,Orthocladiinae,,,,,Eukiefferiella,,,coerulescens,,Eukiefferiella coerulescens,128701,Species,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Chironomidae,Orthocladiinae,,,,,Eukiefferiella,Eukiefferiella Brehmi Group,,,,Eukiefferiella Brehmi Group,-122,Species Group,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Chironomidae,Orthocladiinae,,,,,Eukiefferiella,Eukiefferiella Brevicalcar Group,,,,Eukiefferiella Brevicalcar Group,-14,Species Group,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Chironomidae,Orthocladiinae,,,,,Eukiefferiella,Eukiefferiella Claripennis Group,,,,Eukiefferiella Claripennis Group,-15,Species Group,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Chironomidae,Orthocladiinae,,,,,Eukiefferiella,Eukiefferiella Coerulescens Group,,,,Eukiefferiella Coerulescens Group,-16,Species Group,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Chironomidae,Orthocladiinae,,,,,Eukiefferiella,Eukiefferiella Devonica Group,,,,Eukiefferiella Devonica Group,-17,Species Group,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Chironomidae,Orthocladiinae,,,,,Eukiefferiella,Eukiefferiella Gracei Group,,,,Eukiefferiella Gracei Group,-18,Species Group,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Chironomidae,Orthocladiinae,,,,,Eukiefferiella,Eukiefferiella Pseudomontana Group,,,,Eukiefferiella Pseudomontana Group,-19,Species Group,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Chironomidae,Orthocladiinae,,,,,Eukiefferiella,Eukiefferiella Tirolensis Group,,,,Eukiefferiella Tirolensis Group,-126,Species Group,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Chironomidae,Orthocladiinae,,,,,Heleniella,,,,,Heleniella,128730,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Chironomidae,Orthocladiinae,,,,,Heterotanytarsus,,,,,Heterotanytarsus,128734,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Chironomidae,Orthocladiinae,,,,,Heterotrissocladius,,,,,Heterotrissocladius,128737,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Chironomidae,Orthocladiinae,,,,,Heterotrissocladius,,,marcidus,,Heterotrissocladius marcidus,128744,Species,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Chironomidae,Orthocladiinae,,,,,Heterotrissocladius,Heterotrissocladius Marcidus Group,,,,Heterotrissocladius Marcidus Group,-139,Species Group,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Chironomidae,Orthocladiinae,,,,,Hydrobaenus,,,,,Hydrobaenus,128750,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Chironomidae,Orthocladiinae,,,,,Krenosmittia,,,,,Krenosmittia,128771,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Chironomidae,Orthocladiinae,,,,,Limnophyes,,,,,Limnophyes,128776,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Chironomidae,Orthocladiinae,,,,,Lopescladius,,,,,Lopescladius,128811,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Chironomidae,Orthocladiinae,,,,,Metriocnemus,,,,,Metriocnemus,128821,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Chironomidae,Orthocladiinae,,,,,Nanocladius,,,,,Nanocladius,128844,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Chironomidae,Orthocladiinae,,,,,Orthocladius,,,,,Orthocladius,128874,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Chironomidae,Orthocladiinae,,,,,Orthocladius,,Euorthocladius,,,Orthocladius (Euorthocladius),568520,Subgenus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Chironomidae,Orthocladiinae,,,,,Orthocladius,,Symposiocladius,,,Orthocladius (Symposiocladius),568523,Subgenus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Chironomidae,Orthocladiinae,,,,,Orthocladius,,Symposiocladius,lignicola,,Orthocladius lignicola,128913,Species,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Chironomidae,Orthocladiinae,,,,,Parachaetocladius,,,,,Parachaetocladius,128951,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Chironomidae,Orthocladiinae,,,,,Parakiefferiella,,,,,Parakiefferiella,128968,Genus,FALSE,FALSE,FALSE,FALSE,TRUE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Chironomidae,Orthocladiinae,,,,,Parametriocnemus,,,,,Parametriocnemus,128978,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Chironomidae,Orthocladiinae,,,,,Paraphaenocladius,,,,,Paraphaenocladius,128989,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Chironomidae,Orthocladiinae,,,,,Parorthocladius,,,,,Parorthocladius,129011,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Chironomidae,Orthocladiinae,,,,,Psectrocladius,,,,,Psectrocladius,129018,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Chironomidae,Orthocladiinae,,,,,Pseudorthocladius,,,,,Pseudorthocladius,129052,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Chironomidae,Orthocladiinae,,,,,Pseudosmittia,,,,,Pseudosmittia,129071,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Chironomidae,Orthocladiinae,,,,,Psilometriocnemus,,,,,Psilometriocnemus,129083,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Chironomidae,Orthocladiinae,,,,,Psilometriocnemus,,,triannulatus,,Psilometriocnemus triannulatus,129084,Species,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Chironomidae,Orthocladiinae,,,,,Rheocricotopus,,,,,Rheocricotopus,129086,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Chironomidae,Orthocladiinae,,,,,Smittia,,,,,Smittia,129110,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Chironomidae,Orthocladiinae,,,,,Stilocladius,,,,,Stilocladius,129152,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Chironomidae,Orthocladiinae,,,,,Synorthocladius,,,,,Synorthocladius,129161,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Chironomidae,Orthocladiinae,,,,,Thienemannia,,,gracilis,,Thienemannia gracilis,129181,Species,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Chironomidae,Orthocladiinae,,,,,Thienemanniella,,,,,Thienemanniella,129182,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Chironomidae,Orthocladiinae,,,,,Tvetenia,,,,,Tvetenia,129197,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Chironomidae,Orthocladiinae,,,,,Tvetenia,,,bavarica,,Tvetenia bavarica,129205,Species,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Chironomidae,Orthocladiinae,,,,,Tvetenia,,,vitracies,,Tvetenia vitracies,129203,Species,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Chironomidae,Orthocladiinae,,,,,Tvetenia,Tvetenia Bavarica Group,,,,Tvetenia Bavarica Group,-55,Species Group,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Chironomidae,Orthocladiinae,,,,,Xylotopus,,,par,,Xylotopus par,129209,Species,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Chironomidae,Orthocladiinae,,,Orthocladius complex,,,,,,,Orthocladius complex,-25,Genus Group,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Chironomidae,Podonominae,,Boreochlini,,,Boreochlus,,,,,Boreochlus,127954,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Chironomidae,Prodiamesinae,,,,,Monodiamesa,,,,,Monodiamesa,128440,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Chironomidae,Prodiamesinae,,,,,Odontomesa,,,,,Odontomesa,128446,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Chironomidae,Prodiamesinae,,,,,Prodiamesa,,,,,Prodiamesa,128452,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Chironomidae,Tanypodinae,,,,,,,,,,Tanypodinae,127994,Subfamily,FALSE,FALSE,FALSE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Chironomidae,Tanypodinae,,,,,Reomyia,,,,,Reomyia,-128,Genus,FALSE,FALSE,FALSE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Chironomidae,Tanypodinae,,Macropelopiini,,,,,,,,Macropelopiini,128020,Tribe,FALSE,FALSE,FALSE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Chironomidae,Tanypodinae,,Macropelopiini,,,Apsectrotanypus,,,,,Apsectrotanypus,128021,Genus,FALSE,FALSE,FALSE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Chironomidae,Tanypodinae,,Macropelopiini,,,Brundiniella,,,,,Brundiniella,128026,Genus,FALSE,FALSE,FALSE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Chironomidae,Tanypodinae,,Macropelopiini,,,Brundiniella,,,eumorpha,,Brundiniella eumorpha,128028,Species,FALSE,FALSE,FALSE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Chironomidae,Tanypodinae,,Macropelopiini,,,Macropelopia,,,,,Macropelopia,128034,Genus,FALSE,FALSE,FALSE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Chironomidae,Tanypodinae,,Macropelopiini,,,Macropelopia,,,decedens,,Macropelopia decedens,128037,Species,FALSE,FALSE,FALSE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Chironomidae,Tanypodinae,,Macropelopiini,,,Psectrotanypus,,,,,Psectrotanypus,128048,Genus,FALSE,FALSE,FALSE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Chironomidae,Tanypodinae,,Natarsiini,,,Natarsia,,,,,Natarsia,128070,Genus,FALSE,FALSE,FALSE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Chironomidae,Tanypodinae,,Pentaneurini,,,,,,,,Pentaneurini,128078,Tribe,FALSE,FALSE,FALSE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Chironomidae,Tanypodinae,,Pentaneurini,,,Ablabesmyia,,,,,Ablabesmyia,128079,Genus,FALSE,FALSE,FALSE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Chironomidae,Tanypodinae,,Pentaneurini,,,Conchapelopia,,,,,Conchapelopia,128130,Genus,FALSE,FALSE,FALSE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Chironomidae,Tanypodinae,,Pentaneurini,,,Helopelopia,,,,,Helopelopia,128131,Genus,FALSE,FALSE,FALSE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Chironomidae,Tanypodinae,,Pentaneurini,,,Larsia,,,,,Larsia,128183,Genus,FALSE,FALSE,FALSE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Chironomidae,Tanypodinae,,Pentaneurini,,,Meropelopia,,,,,Meropelopia,128132,Genus,FALSE,FALSE,FALSE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Chironomidae,Tanypodinae,,Pentaneurini,,,Nilotanypus,,,,,Nilotanypus,128202,Genus,FALSE,FALSE,FALSE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Chironomidae,Tanypodinae,,Pentaneurini,,,Paramerina,,,,,Paramerina,128207,Genus,FALSE,FALSE,FALSE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Chironomidae,Tanypodinae,,Pentaneurini,,,Pentaneura,,,,,Pentaneura,128215,Genus,FALSE,FALSE,FALSE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Chironomidae,Tanypodinae,,Pentaneurini,,,Rheopelopia,,,,,Rheopelopia,128226,Genus,FALSE,FALSE,FALSE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Chironomidae,Tanypodinae,,Pentaneurini,,,Thienemannimyia,,,,,Thienemannimyia,128236,Genus,FALSE,FALSE,FALSE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Chironomidae,Tanypodinae,,Pentaneurini,,,Zavrelimyia,,,,,Zavrelimyia,128259,Genus,FALSE,FALSE,FALSE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Chironomidae,Tanypodinae,,Pentaneurini,Paramerina/Zavrelimyia,,,,,,,Paramerina/Zavrelimyia,-26,Genus Group,FALSE,FALSE,FALSE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Chironomidae,Tanypodinae,,Pentaneurini,Thienemannimyia complex,,,,,,,Thienemannimyia complex,-54,Genus Group,FALSE,FALSE,FALSE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Chironomidae,Tanypodinae,,Procladiini,,,Procladius,,,,,Procladius,128277,Genus,FALSE,FALSE,FALSE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Culicidae,,,,,,,,,,,Culicidae,125930,Family,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Culicidae,Anophelinae,,,,,Anopheles,,,,,Anopheles,125956,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Culicidae,Culicinae,,Culicini,,,Aedes,,,,,Aedes,126234,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Culicidae,Culicinae,,Culicini,,,Culex,,,pipiens,,Culex pipiens,126488,Species,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Dixidae,,,,,,,,,,,Dixidae,125809,Family,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Dixidae,,,,,,Dixa,,,,,Dixa,125810,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Dixidae,,,,,,Dixella,,,,,Dixella,125854,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Dixidae,,,,,,Meringodixa,,,,,Meringodixa,125873,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Simuliidae,,,,,,,,,,,Simuliidae,126640,Family,TRUE,FALSE,FALSE,FALSE,TRUE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Simuliidae,Simuliinae,,Prosimuliini,,,Prosimulium,,,,,Prosimulium,126703,Genus,TRUE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Simuliidae,Simuliinae,,Simuliini,,,Simulium,,,,,Simulium,126774,Genus,TRUE,FALSE,FALSE,FALSE,TRUE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Simuliidae,Simuliinae,,Simuliini,,,Simulium,,,canadense,,Simulium canadense,126795,Species,TRUE,FALSE,FALSE,FALSE,TRUE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Simuliidae,Simuliinae,,Simuliini,,,Simulium,,,venustum,,Simulium venustum,126892,Species,TRUE,FALSE,FALSE,FALSE,TRUE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Thaumaleidae,,,,,,,,,,,Thaumaleidae,126624,Family,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Culicomorpha,,Thaumaleidae,,,,,,Thaumalea,,,,,Thaumalea,126629,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Psychodomorpha,,Psychodidae,,,,,,,,,,,Psychodidae,125351,Family,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Psychodomorpha,,Psychodidae,Psychodinae,,,,,Maruina,,,,,Maruina,125392,Genus,TRUE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Psychodomorpha,,Psychodidae,Psychodinae,,,,,Pericoma,,,,,Pericoma,125514,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Psychodomorpha,,Psychodidae,Psychodinae,,,,,Psychoda,,,,,Psychoda,125468,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Psychodomorpha,,Psychodidae,Psychodinae,,,Pericoma/Telmatoscopus,,,,,,,Pericoma/Telmatoscopus,-142,Genus Group,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Ptychopteromorpha,,Ptychopteridae,Ptychopterinae,,,,,Ptychoptera,,,,,Ptychoptera,125786,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Tipulomorpha,,Tipulidae,,,,,,,,,,,Tipulidae,118840,Family,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Tipulomorpha,,Tipulidae,Limoniinae,,,,,,,,,,Limoniinae,119654,Subfamily,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Tipulomorpha,,Tipulidae,Limoniinae,,Eriopterini,,,Cheilotrichia,,,,,Cheilotrichia,120420,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Tipulomorpha,,Tipulidae,Limoniinae,,Eriopterini,,,Cryptolabis,,,,,Cryptolabis,120488,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Tipulomorpha,,Tipulidae,Limoniinae,,Eriopterini,,,Erioptera,,,,,Erioptera,120503,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Tipulomorpha,,Tipulidae,Limoniinae,,Eriopterini,,,Gonomyia,,,,,Gonomyia,120640,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Tipulomorpha,,Tipulidae,Limoniinae,,Eriopterini,,,Hesperoconopa,,,,,Hesperoconopa,120732,Genus,FALSE,TRUE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Tipulomorpha,,Tipulidae,Limoniinae,,Eriopterini,,,Molophilus,,,,,Molophilus,120758,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Tipulomorpha,,Tipulidae,Limoniinae,,Eriopterini,,,Ormosia,,,,,Ormosia,120830,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Tipulomorpha,,Tipulidae,Limoniinae,,Eriopterini,,,Rhabdomastix,,,,,Rhabdomastix,120968,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Tipulomorpha,,Tipulidae,Limoniinae,,Eriopterini,,,Rhabdomastix,Rhabdomastix Fascigera Group,,,,Rhabdomastix Fascigera Group,-32,Species Group,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Tipulomorpha,,Tipulidae,Limoniinae,,Eriopterini,,,Rhabdomastix,Rhabdomastix Setigera Group,,,,Rhabdomastix Setigera Group,-33,Species Group,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Tipulomorpha,,Tipulidae,Limoniinae,,Hexatomini,,,Hexatoma,,,,,Hexatoma,120094,Genus,FALSE,FALSE,FALSE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Tipulomorpha,,Tipulidae,Limoniinae,,Hexatomini,,,Limnophila,,,,,Limnophila,120164,Genus,FALSE,FALSE,FALSE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Tipulomorpha,,Tipulidae,Limoniinae,,Hexatomini,,,Pilaria,,,,,Pilaria,120335,Genus,FALSE,FALSE,FALSE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Tipulomorpha,,Tipulidae,Limoniinae,,Hexatomini,,,Pseudolimnophila,,,,,Pseudolimnophila,120365,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Tipulomorpha,,Tipulidae,Limoniinae,,Hexatomini,,,Ulomorpha,,,,,Ulomorpha,120387,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Tipulomorpha,,Tipulidae,Limoniinae,,Limoniini,,,Antocha,,,,,Antocha,119656,Genus,TRUE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Tipulomorpha,,Tipulidae,Limoniinae,,Limoniini,,,Antocha,,,monticola,,Antocha monticola,119660,Species,TRUE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Tipulomorpha,,Tipulidae,Limoniinae,,Limoniini,,,Helius,,,,,Helius,119690,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Tipulomorpha,,Tipulidae,Limoniinae,,Limoniini,,,Limonia,,,,,Limonia,119704,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Tipulomorpha,,Tipulidae,Limoniinae,,Pediciini,,,Dicranota,,,,,Dicranota,121027,Genus,FALSE,FALSE,FALSE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Tipulomorpha,,Tipulidae,Limoniinae,,Pediciini,,,Pedicia,,,,,Pedicia,121118,Genus,FALSE,FALSE,TRUE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Diptera,Nematocera,Tipulomorpha,,Tipulidae,Tipulinae,,,,,Tipula,,,,,Tipula,119037,Genus,FALSE,FALSE,TRUE,FALSE,TRUE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Hemiptera,,,,,,,,,,,,,,,Hemiptera,103359,Order,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Hemiptera,Heteroptera,,,,,,,,,,,,,,Heteroptera,103358,Suborder,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Hemiptera,Heteroptera,Gerromorpha,Gerroidea,Gerridae,,,,,,,,,,,Gerridae,103801,Family,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Hemiptera,Heteroptera,Gerromorpha,Gerroidea,Gerridae,Gerrinae,,,,,,,,,,Gerrinae,717532,Subfamily,FALSE,FALSE,FALSE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Hemiptera,Heteroptera,Gerromorpha,Gerroidea,Gerridae,Gerrinae,,,,,Aquarius,,,,,Aquarius,717547,Genus,FALSE,FALSE,FALSE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Hemiptera,Heteroptera,Gerromorpha,Gerroidea,Gerridae,Gerrinae,,,,,Aquarius,,,remigis,,Aquarius remigis,717592,Species,FALSE,FALSE,FALSE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Hemiptera,Heteroptera,Gerromorpha,Gerroidea,Gerridae,Gerrinae,,,,,Gerris,,,,,Gerris,103829,Genus,FALSE,FALSE,FALSE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Hemiptera,Heteroptera,Nepomorpha,Corixoidea,Corixidae,,,,,,,,,,,Corixidae,103364,Family,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Hemiptera,Heteroptera,Nepomorpha,Corixoidea,Corixidae,Corixinae,,,,,Callicorixa,,,,,Callicorixa,103514,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Hemiptera,Sternorrhyncha,,Coccoidea,Pseudococcidae,,,,,,Ferrisia,,,,,Ferrisia,200917,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Lepidoptera,,,,,,,,,,,,,,,Lepidoptera,117232,Order,TRUE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Lepidoptera,,,Noctuoidea,Noctuidae,,,,,,,,,,,Noctuidae,117318,Family,TRUE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Lepidoptera,,,Pyraloidea,Crambidae,,,,,,,,,,,Crambidae,693963,Family,TRUE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Lepidoptera,,,Pyraloidea,Crambidae,Nymphulinae,,Argyractini,,,Petrophila,,,,,Petrophila,117682,Genus,TRUE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Lepidoptera,,,Pyraloidea,Pyralidae,,,,,,,,,,,Pyralidae,117641,Family,TRUE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Plecoptera,,,,,,,,,,,,,,,Plecoptera,102467,Order,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Plecoptera,Euholognatha,,,Capniidae,,,,,,,,,,,Capniidae,102643,Family,FALSE,TRUE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Plecoptera,Euholognatha,,,Capniidae,Capniinae,,,,,Capnia,,,,,Capnia,102688,Genus,FALSE,TRUE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Plecoptera,Euholognatha,,,Leuctridae,,,,,,,,,,,Leuctridae,102840,Family,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Plecoptera,Euholognatha,,,Leuctridae,Leuctrinae,,,,,Despaxia,,,,,Despaxia,102841,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Plecoptera,Euholognatha,,,Leuctridae,Leuctrinae,,,,,Despaxia,,,augusta,,Despaxia augusta,102842,Species,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Plecoptera,Euholognatha,,,Leuctridae,Leuctrinae,,,,,Moselia,,,infuscata,,Moselia infuscata,102910,Species,FALSE,TRUE,TRUE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Plecoptera,Euholognatha,,,Leuctridae,Leuctrinae,,,,,Paraleuctra,,,,,Paraleuctra,102887,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Plecoptera,Euholognatha,,,Leuctridae,Leuctrinae,,,,,Perlomyia,,,,,Perlomyia,103239,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Plecoptera,Euholognatha,,,Nemouridae,,,,,,,,,,,Nemouridae,102517,Family,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Plecoptera,Euholognatha,,,Nemouridae,Amphinemurinae,,,,,Amphinemura,,,,,Amphinemura,102540,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Plecoptera,Euholognatha,,,Nemouridae,Amphinemurinae,,,,,Malenka,,,,,Malenka,102567,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Plecoptera,Euholognatha,,,Nemouridae,Nemourinae,,,,,Soyedina,,,,,Soyedina,102556,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Plecoptera,Euholognatha,,,Nemouridae,Nemourinae,,,,,Visoka,,,cataractae,,Visoka cataractae,102615,Species,FALSE,FALSE,TRUE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Plecoptera,Euholognatha,,,Nemouridae,Nemourinae,,,,,Zapada,,,,,Zapada,102591,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Plecoptera,Euholognatha,,,Nemouridae,Nemourinae,,,,,Zapada,,,cinctipes,,Zapada cinctipes,102594,Species,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Plecoptera,Euholognatha,,,Nemouridae,Nemourinae,,,,,Zapada,,,columbiana,,Zapada columbiana,102596,Species,FALSE,FALSE,TRUE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Plecoptera,Euholognatha,,,Nemouridae,Nemourinae,,,,,Zapada,,,frigida,,Zapada frigida,102601,Species,FALSE,FALSE,TRUE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Plecoptera,Euholognatha,,,Nemouridae,Nemourinae,,,,,Zapada,,,oregonensis,,Zapada oregonensis,102597,Species,FALSE,FALSE,TRUE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Plecoptera,Euholognatha,,,Nemouridae,Nemourinae,,,,,Zapada,Zapada Oregonensis Group,,,,Zapada Oregonensis Group,-58,Species Group,FALSE,FALSE,TRUE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Plecoptera,Euholognatha,,,Taeniopterygidae,,,,,,,,,,,Taeniopterygidae,102788,Family,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Plecoptera,Euholognatha,,,Taeniopterygidae,Brachypteryinae,,,,,Taenionema,,,,,Taenionema,102519,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Plecoptera,Systellognatha,,,Chloroperlidae,,,,,,,,,,,Chloroperlidae,103202,Family,FALSE,FALSE,FALSE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Plecoptera,Systellognatha,,,Chloroperlidae,Chloroperlinae,,,,,Plumiperla,,,,,Plumiperla,103305,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Plecoptera,Systellognatha,,,Chloroperlidae,Chloroperlinae,,,,,Suwallia,,,,,Suwallia,103254,Genus,FALSE,FALSE,FALSE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Plecoptera,Systellognatha,,,Chloroperlidae,Chloroperlinae,,,,,Sweltsa,,,,,Sweltsa,103273,Genus,FALSE,FALSE,TRUE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Plecoptera,Systellognatha,,,Chloroperlidae,Paraperlinae,,,,,Kathroperla,,,,,Kathroperla,103236,Genus,FALSE,TRUE,TRUE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Plecoptera,Systellognatha,,,Chloroperlidae,Paraperlinae,,,,,Kathroperla,,,perdita,,Kathroperla perdita,103237,Species,FALSE,TRUE,TRUE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Plecoptera,Systellognatha,,,Chloroperlidae,Paraperlinae,,,,,Paraperla,,,,,Paraperla,103233,Genus,FALSE,TRUE,TRUE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Plecoptera,Systellognatha,,,Peltoperlidae,,,,,,,,,,,Peltoperlidae,102488,Family,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Plecoptera,Systellognatha,,,Peltoperlidae,Peltoperlinae,,,,,Yoraperla,,,,,Yoraperla,102510,Genus,FALSE,TRUE,TRUE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Plecoptera,Systellognatha,,,Peltoperlidae,Peltoperlinae,,,,,Yoraperla,,,brevis,,Yoraperla brevis,102512,Species,FALSE,TRUE,TRUE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Plecoptera,Systellognatha,,,Peltoperlidae,Peltoperlinae,,,,,Yoraperla,,,siletz,,Yoraperla siletz,568731,Species,FALSE,TRUE,TRUE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Plecoptera,Systellognatha,,,Perlidae,,,,,,,,,,,Perlidae,102914,Family,TRUE,TRUE,TRUE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Plecoptera,Systellognatha,,,Perlidae,Acroneuriinae,,Acroneuriini,,,Calineuria,,,,,Calineuria,102985,Genus,TRUE,TRUE,TRUE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Plecoptera,Systellognatha,,,Perlidae,Acroneuriinae,,Acroneuriini,,,Calineuria,,,californica,,Calineuria californica,102986,Species,TRUE,TRUE,TRUE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Plecoptera,Systellognatha,,,Perlidae,Acroneuriinae,,Acroneuriini,,,Doroneuria,,,,,Doroneuria,103121,Genus,TRUE,TRUE,TRUE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Plecoptera,Systellognatha,,,Perlidae,Acroneuriinae,,Acroneuriini,,,Doroneuria,,,baumanni,,Doroneuria baumanni,103123,Species,TRUE,TRUE,TRUE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Plecoptera,Systellognatha,,,Perlidae,Acroneuriinae,,Acroneuriini,,,Hesperoperla,,,,,Hesperoperla,102971,Genus,TRUE,TRUE,TRUE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Plecoptera,Systellognatha,,,Perlidae,Acroneuriinae,,Acroneuriini,,,Hesperoperla,,,pacifica,,Hesperoperla pacifica,102972,Species,TRUE,TRUE,TRUE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Plecoptera,Systellognatha,,,Perlidae,Perlinae,,Perlini,,,Claassenia,,,,,Claassenia,102930,Genus,TRUE,FALSE,TRUE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Plecoptera,Systellognatha,,,Perlidae,Perlinae,,Perlini,,,Claassenia,,,sabulosa,,Claassenia sabulosa,102932,Species,TRUE,FALSE,TRUE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Plecoptera,Systellognatha,,,Perlodidae,,,,,,,,,,,Perlodidae,102994,Family,TRUE,FALSE,FALSE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Plecoptera,Systellognatha,,,Perlodidae,Isoperlinae,,,,,Isoperla,,,,,Isoperla,102995,Genus,TRUE,FALSE,FALSE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Plecoptera,Systellognatha,,,Perlodidae,Perlodinae,,Arcynopterygini,,,Megarcys,,,,,Megarcys,103110,Genus,TRUE,FALSE,TRUE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Plecoptera,Systellognatha,,,Perlodidae,Perlodinae,,Arcynopterygini,,,Perlinodes,,,,,Perlinodes,103134,Genus,TRUE,FALSE,FALSE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Plecoptera,Systellognatha,,,Perlodidae,Perlodinae,,Arcynopterygini,,,Perlinodes,,,aureus,,Perlinodes aureus,103135,Species,TRUE,FALSE,FALSE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Plecoptera,Systellognatha,,,Perlodidae,Perlodinae,,Arcynopterygini,,,Setvena,,,tibialis,,Setvena tibialis,103195,Species,TRUE,FALSE,TRUE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Plecoptera,Systellognatha,,,Perlodidae,Perlodinae,,Arcynopterygini,,,Skwala,,,,,Skwala,103102,Genus,TRUE,FALSE,FALSE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Plecoptera,Systellognatha,,,Perlodidae,Perlodinae,,Diploperlini,,,Cultus,,,,,Cultus,103137,Genus,TRUE,FALSE,FALSE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Plecoptera,Systellognatha,,,Perlodidae,Perlodinae,,Diploperlini,,,Kogotus,,,,,Kogotus,103149,Genus,TRUE,FALSE,FALSE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Plecoptera,Systellognatha,,,Perlodidae,Perlodinae,,Diploperlini,,,Kogotus,,,nonus,,Kogotus nonus,103150,Species,TRUE,FALSE,FALSE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Plecoptera,Systellognatha,,,Perlodidae,Perlodinae,,Diploperlini,,,Rickera,,,,,Rickera,103189,Genus,TRUE,FALSE,FALSE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Plecoptera,Systellognatha,,,Perlodidae,Perlodinae,,Diploperlini,,,Rickera,,,sorpta,,Rickera sorpta,103190,Species,TRUE,FALSE,FALSE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Plecoptera,Systellognatha,,,Perlodidae,Perlodinae,,Diploperlini,Kogotus/Rickera,,,,,,,Kogotus/Rickera,-20,Genus Group,TRUE,FALSE,FALSE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Plecoptera,Systellognatha,,,Pteronarcyidae,,,,,,,,,,,Pteronarcyidae,102470,Family,FALSE,FALSE,TRUE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Plecoptera,Systellognatha,,,Pteronarcyidae,Pteronarcyinae,,Pteronarcellini,,,Pteronarcella,,,,,Pteronarcella,102485,Genus,FALSE,FALSE,TRUE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Plecoptera,Systellognatha,,,Pteronarcyidae,Pteronarcyinae,,Pteronarcyini,,,Pteronarcys,,,,,Pteronarcys,102471,Genus,FALSE,FALSE,TRUE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Plecoptera,Systellognatha,,,Pteronarcyidae,Pteronarcyinae,,Pteronarcyini,,,Pteronarcys,,,californica,,Pteronarcys californica,102473,Species,FALSE,FALSE,TRUE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Plecoptera,Systellognatha,,,Pteronarcyidae,Pteronarcyinae,,Pteronarcyini,,,Pteronarcys,,,dorsata,,Pteronarcys dorsata,102478,Species,FALSE,FALSE,TRUE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Plecoptera,Systellognatha,,,Pteronarcyidae,Pteronarcyinae,,Pteronarcyini,,,Pteronarcys,,,princeps,,Pteronarcys princeps,102484,Species,FALSE,FALSE,TRUE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Trichoptera,,,,,,,,,,,,,,,Trichoptera,115095,Order,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Trichoptera,,,Glossosomatoidea,Glossosomatidae,,,,,,,,,,,Glossosomatidae,117120,Family,TRUE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Trichoptera,,,Glossosomatoidea,Glossosomatidae,Agapetinae,,,,,Agapetus,,,,,Agapetus,117121,Genus,TRUE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Trichoptera,,,Glossosomatoidea,Glossosomatidae,Glossosomatinae,,Anagapetini,,,Anagapetus,,,,,Anagapetus,117154,Genus,TRUE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Trichoptera,,,Glossosomatoidea,Glossosomatidae,Glossosomatinae,,Glossosomatini,,,Glossosoma,,,,,Glossosoma,117159,Genus,TRUE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Trichoptera,,,Glossosomatoidea,Glossosomatidae,Protoptilinae,,,,,Protoptila,,,,,Protoptila,115221,Genus,TRUE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Trichoptera,,,Hydropsychoidea,Hydropsychidae,,,,,,,,,,,Hydropsychidae,115398,Family,TRUE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Trichoptera,,,Hydropsychoidea,Hydropsychidae,Arctopsychinae,,,,,,,,,,Arctopsychinae,568763,Subfamily,TRUE,FALSE,TRUE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Trichoptera,,,Hydropsychoidea,Hydropsychidae,Arctopsychinae,,,,,Arctopsyche,,,,,Arctopsyche,115529,Genus,TRUE,TRUE,TRUE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Trichoptera,,,Hydropsychoidea,Hydropsychidae,Arctopsychinae,,,,,Arctopsyche,,,grandis,,Arctopsyche grandis,115530,Species,TRUE,TRUE,TRUE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Trichoptera,,,Hydropsychoidea,Hydropsychidae,Arctopsychinae,,,,,Parapsyche,,,,,Parapsyche,115556,Genus,TRUE,FALSE,TRUE,TRUE,TRUE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Trichoptera,,,Hydropsychoidea,Hydropsychidae,Arctopsychinae,,,,,Parapsyche,,,almota,,Parapsyche almota,115563,Species,TRUE,FALSE,TRUE,TRUE,TRUE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Trichoptera,,,Hydropsychoidea,Hydropsychidae,Arctopsychinae,,,,,Parapsyche,,,elsis,,Parapsyche elsis,115560,Species,TRUE,FALSE,TRUE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Trichoptera,,,Hydropsychoidea,Hydropsychidae,Hydropsychinae,,,,,Ceratopsyche,,,amblis,,Ceratopsyche amblis,568781,Species,TRUE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Trichoptera,,,Hydropsychoidea,Hydropsychidae,Hydropsychinae,,,,,Ceratopsyche,,,oslari,,Ceratopsyche oslari,599457,Species,TRUE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Trichoptera,,,Hydropsychoidea,Hydropsychidae,Hydropsychinae,,,,,Cheumatopsyche,,,,,Cheumatopsyche,115408,Genus,TRUE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Trichoptera,,,Hydropsychoidea,Hydropsychidae,Hydropsychinae,,,,,Hydropsyche,,,,,Hydropsyche,115453,Genus,TRUE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Trichoptera,,,Hydropsychoidea,Polycentropodidae,,,,,,,,,,,Polycentropodidae,117043,Family,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Trichoptera,,,Hydropsychoidea,Polycentropodidae,Polycentropodinae,,,,,,,,,,Polycentropodinae,598193,Subfamily,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Trichoptera,,,Hydropsychoidea,Polycentropodidae,Polycentropodinae,,,,,Polycentropus,,,,,Polycentropus,117044,Genus,TRUE,TRUE,FALSE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Trichoptera,,,Hydropsychoidea,Psychomyiidae,Psychomyiinae,,,,,Psychomyia,,,,,Psychomyia,115335,Genus,TRUE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Trichoptera,,,Hydropsychoidea,Psychomyiidae,Psychomyiinae,,,,,Psychomyia,,,flavida,,Psychomyia flavida,115341,Species,TRUE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Trichoptera,,,Hydroptiloidea,Hydroptilidae,,,,,,,,,,,Hydroptilidae,115629,Family,TRUE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Trichoptera,,,Hydroptiloidea,Hydroptilidae,,,,,,,,,Hydroptilidae sp. RAI # 0001,,Hydroptilidae sp. RAI # 0001,-133,Species,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Trichoptera,,,Hydroptiloidea,Hydroptilidae,Hydroptilinae,,Hydroptilini,,,Agraylea,,,,,Agraylea,115635,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Trichoptera,,,Hydroptiloidea,Hydroptilidae,Hydroptilinae,,Hydroptilini,,,Hydroptila,,,,,Hydroptila,115641,Genus,TRUE,FALSE,FALSE,FALSE,TRUE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Trichoptera,,,Hydroptiloidea,Hydroptilidae,Hydroptilinae,,Leucotrichiini,,,Leucotrichia,,,,,Leucotrichia,115630,Genus,TRUE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Trichoptera,,,Hydroptiloidea,Hydroptilidae,Hydroptilinae,,Leucotrichiini,,,Leucotrichia,,,pictipes,,Leucotrichia pictipes,115631,Species,TRUE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Trichoptera,,,Hydroptiloidea,Hydroptilidae,Hydroptilinae,,Ochrotrichiini,,,Ochrotrichia,,,,,Ochrotrichia,115714,Genus,TRUE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Trichoptera,,,Leptoceroidea,Calamoceratidae,Calamoceratinae,,,,,Heteroplectron,,,californicum,,Heteroplectron californicum,116538,Species,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Trichoptera,,,Leptoceroidea,Leptoceridae,,,,,,,,,,,Leptoceridae,116547,Family,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Trichoptera,,,Leptoceroidea,Leptoceridae,Leptocerinae,,Athripsodini,,,Ceraclea,,,,,Ceraclea,116684,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Trichoptera,,,Leptoceroidea,Leptoceridae,Leptocerinae,,Mystacidini,,,Mystacides,,,,,Mystacides,116598,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Trichoptera,,,Leptoceroidea,Leptoceridae,Leptocerinae,,Nectopsychini,,,Nectopsyche,,,,,Nectopsyche,116651,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Trichoptera,,,Leptoceroidea,Leptoceridae,Leptocerinae,,Oecetini,,,Oecetis,,,,,Oecetis,116607,Genus,FALSE,FALSE,FALSE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Trichoptera,,,Limnephiloidea,Apataniidae,,,,,,Pedomoecus,,,sierra,,Pedomoecus sierra,115973,Species,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Trichoptera,,,Limnephiloidea,Apataniidae,Apataniinae,,Apataniini,,,Apatania,,,,,Apatania,115935,Genus,TRUE,TRUE,TRUE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Trichoptera,,,Limnephiloidea,Apataniidae,Apataniinae,,Apataniini,,,Apatania,,,sorex,,Apatania sorex,115936,Species,TRUE,TRUE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Trichoptera,,,Limnephiloidea,Brachycentridae,,,,,,,,,,,Brachycentridae,116905,Family,TRUE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Trichoptera,,,Limnephiloidea,Brachycentridae,,,,,,Amiocentrus,,,,,Amiocentrus,116933,Genus,TRUE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Trichoptera,,,Limnephiloidea,Brachycentridae,,,,,,Amiocentrus,,,aspilus,,Amiocentrus aspilus,116934,Species,TRUE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Trichoptera,,,Limnephiloidea,Brachycentridae,,,,,,Brachycentrus,,,,,Brachycentrus,116906,Genus,TRUE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Trichoptera,,,Limnephiloidea,Brachycentridae,,,,,,Brachycentrus,,Oligoplectrodes,americanus,,Brachycentrus americanus,116912,Species,TRUE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Trichoptera,,,Limnephiloidea,Brachycentridae,,,,,,Brachycentrus,,Sphinctogaster,occidentalis,,Brachycentrus occidentalis,116918,Species,TRUE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Trichoptera,,,Limnephiloidea,Brachycentridae,,,,,,Eobrachycentrus,,,,,Eobrachycentrus,116971,Genus,TRUE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Trichoptera,,,Limnephiloidea,Brachycentridae,,,,,,Micrasema,,,,,Micrasema,116958,Genus,TRUE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Trichoptera,,,Limnephiloidea,Brachycentridae,,,,,,Micrasema,,,dimicki,,Micrasema dimicki,116968,Species,TRUE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Trichoptera,,,Limnephiloidea,Goeridae,,,,,,,,,,,Goeridae,115934,Family,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Trichoptera,,,Limnephiloidea,Goeridae,Goerinae,,,,,Goeracea,,,,,Goeracea,116298,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Trichoptera,,,Limnephiloidea,Goeridae,Goerinae,,,,,Goeracea,,,genota,,Goeracea genota,116299,Species,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Trichoptera,,,Limnephiloidea,Lepidostomatidae,,,,,,,,,,,Lepidostomatidae,116793,Family,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Trichoptera,,,Limnephiloidea,Lepidostomatidae,Lepidostomatinae,,,,,Lepidostoma,,,,,Lepidostoma,116794,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Trichoptera,,,Limnephiloidea,Lepidostomatidae,Lepidostomatinae,,,,,Lepidostoma,,Lepidostoma,togatum,,Lepidostoma togatum,116847,Species,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Trichoptera,,,Limnephiloidea,Lepidostomatidae,Lepidostomatinae,,,,,Lepidostoma,,Nosopus,cascadense,,Lepidostoma cascadense,116886,Species,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Trichoptera,,,Limnephiloidea,Lepidostomatidae,Lepidostomatinae,,,,,Lepidostoma,,Nosopus,hoodi,,Lepidostoma hoodi,116879,Species,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Trichoptera,,,Limnephiloidea,Lepidostomatidae,Lepidostomatinae,,,,,Lepidostoma,Lepidostoma Pluviale Group,,,,Lepidostoma Pluviale Group,-21,Species Group,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Trichoptera,,,Limnephiloidea,Limnephilidae,,,,,,,,,,,Limnephilidae,115933,Family,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Trichoptera,,,Limnephiloidea,Limnephilidae,Dicosmoecinae,,,,,,,,,,Dicosmoecinae,568759,Subfamily,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Trichoptera,,,Limnephiloidea,Limnephilidae,Dicosmoecinae,,,,,Allocosmoecus,,,,,Allocosmoecus,115969,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Trichoptera,,,Limnephiloidea,Limnephilidae,Dicosmoecinae,,,,,Allocosmoecus,,,partitus,,Allocosmoecus partitus,115970,Species,TRUE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Trichoptera,,,Limnephiloidea,Limnephilidae,Dicosmoecinae,,,,,Cryptochia,,,,,Cryptochia,115907,Genus,TRUE,FALSE,TRUE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Trichoptera,,,Limnephiloidea,Limnephilidae,Dicosmoecinae,,,,,Dicosmoecus,,,,,Dicosmoecus,116265,Genus,TRUE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Trichoptera,,,Limnephiloidea,Limnephilidae,Dicosmoecinae,,,,,Dicosmoecus,,,atripes,,Dicosmoecus atripes,116266,Species,TRUE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Trichoptera,,,Limnephiloidea,Limnephilidae,Dicosmoecinae,,,,,Dicosmoecus,,,gilvipes,,Dicosmoecus gilvipes,116268,Species,TRUE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Trichoptera,,,Limnephiloidea,Limnephilidae,Dicosmoecinae,,,,,Ecclisocosmoecus,,,,,Ecclisocosmoecus,116340,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Trichoptera,,,Limnephiloidea,Limnephilidae,Dicosmoecinae,,,,,Ecclisocosmoecus,,,scylla,,Ecclisocosmoecus scylla,116342,Species,FALSE,FALSE,TRUE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Trichoptera,,,Limnephiloidea,Limnephilidae,Dicosmoecinae,,,,,Ecclisomyia,,,,,Ecclisomyia,116025,Genus,TRUE,TRUE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Trichoptera,,,Limnephiloidea,Limnephilidae,Dicosmoecinae,,,,,Onocosmoecus,,,,,Onocosmoecus,116315,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Trichoptera,,,Limnephiloidea,Limnephilidae,Dicosmoecinae,,,,,Onocosmoecus,,,unicolor,,Onocosmoecus unicolor,116318,Species,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Trichoptera,,,Limnephiloidea,Limnephilidae,Limnephilinae,,,,,,,,,,Limnephilinae,568764,Subfamily,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Trichoptera,,,Limnephiloidea,Limnephilidae,Limnephilinae,,Chilostigmini,,,Homophylax,,,,,Homophylax,116286,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Trichoptera,,,Limnephiloidea,Limnephilidae,Limnephilinae,,Chilostigmini,,,Psychoglypha,,,,,Psychoglypha,115974,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Trichoptera,,,Limnephiloidea,Limnephilidae,Limnephilinae,,Chilostigmini,,,Psychoglypha,,,bella,,Psychoglypha bella,115977,Species,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Trichoptera,,,Limnephiloidea,Limnephilidae,Limnephilinae,,Chilostigmini,,,Psychoglypha,,,subborealis,,Psychoglypha subborealis,115981,Species,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Trichoptera,,,Limnephiloidea,Limnephilidae,Limnephilinae,,Stenophylacini,,,Chyrandra,,,centralis,,Chyrandra centralis,116018,Species,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Trichoptera,,,Limnephiloidea,Limnephilidae,Limnephilinae,,Stenophylacini,,,Hydatophylax,,,,,Hydatophylax,115995,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Trichoptera,,,Limnephiloidea,Limnephilidae,Limnephilinae,,Stenophylacini,,,Hydatophylax,,,hesperus,,Hydatophylax hesperus,115998,Species,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Trichoptera,,,Limnephiloidea,Uenoidae,,,,,,,,,,,Uenoidae,568757,Family,TRUE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Trichoptera,,,Limnephiloidea,Uenoidae,Thremmatinae,,,,,Neophylax,,,,,Neophylax,116046,Genus,TRUE,TRUE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Trichoptera,,,Limnephiloidea,Uenoidae,Thremmatinae,,,,,Neophylax,,,occidentis,,Neophylax occidentis,116065,Species,TRUE,TRUE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Trichoptera,,,Limnephiloidea,Uenoidae,Thremmatinae,,,,,Neophylax,,,rickeri,,Neophylax rickeri,116054,Species,TRUE,TRUE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Trichoptera,,,Limnephiloidea,Uenoidae,Thremmatinae,,,,,Neophylax,,,splendens,,Neophylax splendens,116063,Species,TRUE,TRUE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Trichoptera,,,Limnephiloidea,Uenoidae,Thremmatinae,,,,,Oligophlebodes,,,,,Oligophlebodes,116039,Genus,TRUE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Trichoptera,,,Limnephiloidea,Uenoidae,Uenoinae,,,,,Farula,,,,,Farula,116331,Genus,TRUE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Trichoptera,,,Limnephiloidea,Uenoidae,Uenoinae,,,,,Neothremma,,,,,Neothremma,116388,Genus,TRUE,FALSE,TRUE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Trichoptera,,,Philopotamoidea,Philopotamidae,,,,,,,,,,,Philopotamidae,115257,Family,TRUE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Trichoptera,,,Philopotamoidea,Philopotamidae,Philopotaminae,,,,,Dolophilodes,,,,,Dolophilodes,115319,Genus,TRUE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Trichoptera,,,Philopotamoidea,Philopotamidae,Philopotaminae,,,,,Wormaldia,,,,,Wormaldia,115258,Genus,TRUE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Trichoptera,,,Phryganeoidea,Phryganeidae,,,,,,,,,,,Phryganeidae,115867,Family,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Trichoptera,,,Phryganeoidea,Phryganeidae,Phryganeinae,,,,,Ptilostomis,,,,,Ptilostomis,115868,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Trichoptera,,,Rhyacophiloidea,Rhyacophilidae,,,,,,,,,,,Rhyacophilidae,115096,Family,TRUE,FALSE,FALSE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Trichoptera,,,Rhyacophiloidea,Rhyacophilidae,,,,,,Rhyacophila,,,,,Rhyacophila,115097,Genus,TRUE,FALSE,FALSE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Trichoptera,,,Rhyacophiloidea,Rhyacophilidae,,,,,,Rhyacophila,,,angelita,,Rhyacophila angelita,115099,Species,TRUE,FALSE,FALSE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Trichoptera,,,Rhyacophiloidea,Rhyacophilidae,,,,,,Rhyacophila,,,arnaudi,,Rhyacophila arnaudi,115165,Species,TRUE,TRUE,FALSE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Trichoptera,,,Rhyacophiloidea,Rhyacophilidae,,,,,,Rhyacophila,,,betteni,,Rhyacophila betteni,115101,Species,TRUE,FALSE,FALSE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Trichoptera,,,Rhyacophiloidea,Rhyacophilidae,,,,,,Rhyacophila,,,blarina,,Rhyacophila blarina,115153,Species,FALSE,FALSE,FALSE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Trichoptera,,,Rhyacophiloidea,Rhyacophilidae,,,,,,Rhyacophila,,,brunnea,,Rhyacophila brunnea,115151,Species,TRUE,FALSE,TRUE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Trichoptera,,,Rhyacophiloidea,Rhyacophilidae,,,,,,Rhyacophila,,,grandis,,Rhyacophila grandis,115105,Species,FALSE,FALSE,FALSE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Trichoptera,,,Rhyacophiloidea,Rhyacophilidae,,,,,,Rhyacophila,,,hyalinata,,Rhyacophila hyalinata,115159,Species,TRUE,FALSE,FALSE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Trichoptera,,,Rhyacophiloidea,Rhyacophilidae,,,,,,Rhyacophila,,,inculta,,Rhyacophila inculta,115175,Species,TRUE,FALSE,FALSE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Trichoptera,,,Rhyacophiloidea,Rhyacophilidae,,,,,,Rhyacophila,,,malkini,,Rhyacophila malkini,115181,Species,TRUE,FALSE,FALSE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Trichoptera,,,Rhyacophiloidea,Rhyacophilidae,,,,,,Rhyacophila,,,narvae,,Rhyacophila narvae,115155,Species,TRUE,FALSE,FALSE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Trichoptera,,,Rhyacophiloidea,Rhyacophilidae,,,,,,Rhyacophila,,,pellisa,,Rhyacophila pellisa,115114,Species,TRUE,FALSE,FALSE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Trichoptera,,,Rhyacophiloidea,Rhyacophilidae,,,,,,Rhyacophila,,,sibirica,,Rhyacophila sibirica,568811,Species,TRUE,FALSE,FALSE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Trichoptera,,,Rhyacophiloidea,Rhyacophilidae,,,,,,Rhyacophila,,,valuma,,Rhyacophila valuma,115121,Species,TRUE,FALSE,FALSE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Trichoptera,,,Rhyacophiloidea,Rhyacophilidae,,,,,,Rhyacophila,,,vuzana,,Rhyacophila vuzana,115154,Species,TRUE,FALSE,FALSE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Trichoptera,,,Rhyacophiloidea,Rhyacophilidae,,,,,,Rhyacophila,Rhyacophila Angelita Group,,,,Rhyacophila Angelita Group,-35,Species Group,TRUE,FALSE,FALSE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Trichoptera,,,Rhyacophiloidea,Rhyacophilidae,,,,,,Rhyacophila,Rhyacophila Betteni Group,,,,Rhyacophila Betteni Group,-37,Species Group,TRUE,FALSE,FALSE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Trichoptera,,,Rhyacophiloidea,Rhyacophilidae,,,,,,Rhyacophila,Rhyacophila Brunnea/Vemna Groups,,,,Rhyacophila Brunnea/Vemna Groups,-38,Species Group,TRUE,FALSE,TRUE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Trichoptera,,,Rhyacophiloidea,Rhyacophilidae,,,,,,Rhyacophila,Rhyacophila Coloradensis Group,,,,Rhyacophila Coloradensis Group,-39,Species Group,TRUE,FALSE,FALSE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Trichoptera,,,Rhyacophiloidea,Rhyacophilidae,,,,,,Rhyacophila,Rhyacophila Ecosa Group,,,,Rhyacophila Ecosa Group,-40,Species Group,TRUE,FALSE,FALSE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Trichoptera,,,Rhyacophiloidea,Rhyacophilidae,,,,,,Rhyacophila,Rhyacophila Grandis Group,,,,Rhyacophila Grandis Group,-41,Species Group,FALSE,FALSE,FALSE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Trichoptera,,,Rhyacophiloidea,Rhyacophilidae,,,,,,Rhyacophila,Rhyacophila Hyalinata Group,,,,Rhyacophila Hyalinata Group,-42,Species Group,TRUE,FALSE,FALSE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Trichoptera,,,Rhyacophiloidea,Rhyacophilidae,,,,,,Rhyacophila,Rhyacophila Nevadensis Group,,,,Rhyacophila Nevadensis Group,-43,Species Group,TRUE,FALSE,FALSE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Trichoptera,,,Rhyacophiloidea,Rhyacophilidae,,,,,,Rhyacophila,Rhyacophila Oreta Group,,,,Rhyacophila Oreta Group,-44,Species Group,FALSE,FALSE,FALSE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Trichoptera,,,Rhyacophiloidea,Rhyacophilidae,,,,,,Rhyacophila,Rhyacophila pellisa/valuma,,,,Rhyacophila pellisa/valuma,-45,Species Group,TRUE,FALSE,FALSE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Trichoptera,,,Rhyacophiloidea,Rhyacophilidae,,,,,,Rhyacophila,Rhyacophila Rotunda Group,,,,Rhyacophila Rotunda Group,-46,Species Group,FALSE,FALSE,FALSE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Trichoptera,,,Rhyacophiloidea,Rhyacophilidae,,,,,,Rhyacophila,Rhyacophila Sibirica Group,,,,Rhyacophila Sibirica Group,-47,Species Group,TRUE,FALSE,FALSE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Trichoptera,,,Rhyacophiloidea,Rhyacophilidae,,,,,,Rhyacophila,Rhyacophila Vemna Group,,,,Rhyacophila Vemna Group,-49,Species Group,TRUE,FALSE,TRUE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Trichoptera,,,Rhyacophiloidea,Rhyacophilidae,,,,,,Rhyacophila,Rhyacophila Vofixa Group,,,,Rhyacophila Vofixa Group,-52,Species Group,TRUE,FALSE,TRUE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Trichoptera,,,Sericostomatoidea,Helicopsychidae,,,,,,Helicopsyche,,,,,Helicopsyche,117016,Genus,TRUE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Trichoptera,,,Sericostomatoidea,Helicopsychidae,,,,,,Helicopsyche,,Feropsyche,borealis,,Helicopsyche borealis,117020,Species,TRUE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,,Trichoptera,,,Sericostomatoidea,Sericostomatidae,,,,,,Gumaga,,,,,Gumaga,117003,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,Neuropterida,Megaloptera,,,,Corydalidae,Chauliodinae,,,,,Orohermes,,,crepusculus,,Orohermes crepusculus,115045,Species,FALSE,FALSE,TRUE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,Neuropterida,Megaloptera,,,,Sialidae,,,,,,Sialis,,,,,Sialis,115002,Genus,FALSE,FALSE,TRUE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,Neuropterida,Neuroptera,Hemerobiiformia,,,Hemerobiidae,,,,,,,,,,,Hemerobiidae,115080,Family,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Neoptera,Neuropterida,Neuroptera,Hemerobiiformia,,,Sisyridae,,,,,,,,,,,Sisyridae,115085,Family,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Palaeoptera,,Ephemeroptera,,,,,,,,,,,,,,,Ephemeroptera,100502,Order,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Palaeoptera,,Ephemeroptera,Furcatergalia,Lanceolata,,Leptophlebiidae,,,,,,,,,,,Leptophlebiidae,101095,Family,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Palaeoptera,,Ephemeroptera,Furcatergalia,Lanceolata,,Leptophlebiidae,,,,,,Leptophlebia,,,,,Leptophlebia,101148,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Palaeoptera,,Ephemeroptera,Furcatergalia,Lanceolata,,Leptophlebiidae,,,,,,Paraleptophlebia,,,,,Paraleptophlebia,101187,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Palaeoptera,,Ephemeroptera,Furcatergalia,Lanceolata,,Leptophlebiidae,,,,,,Paraleptophlebia,,,bicornuta,,Paraleptophlebia bicornuta,101206,Species,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Palaeoptera,,Ephemeroptera,Furcatergalia,Lanceolata,,Leptophlebiidae,,,,,,Paraleptophlebia,,,debilis,,Paraleptophlebia debilis,101193,Species,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Palaeoptera,,Ephemeroptera,Furcatergalia,Lanceolata,,Leptophlebiidae,,,,,,Paraleptophlebia,,,memorialis,,Paraleptophlebia memorialis,101214,Species,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Palaeoptera,,Ephemeroptera,Furcatergalia,Lanceolata,,Leptophlebiidae,,,,,,Paraleptophlebia,,,temporalis,,Paraleptophlebia temporalis,101226,Species,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Palaeoptera,,Ephemeroptera,Furcatergalia,Lanceolata,,Leptophlebiidae,,,,,,Paraleptophlebia,,,vaciva,,Paraleptophlebia vaciva,101227,Species,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Palaeoptera,,Ephemeroptera,Furcatergalia,Pannota,Ephemerelloidea,Ephemerellidae,,,,,,,,,,,Ephemerellidae,101232,Family,TRUE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Palaeoptera,,Ephemeroptera,Furcatergalia,Pannota,Ephemerelloidea,Ephemerellidae,,,,,,Attenella,,,,,Attenella,101338,Genus,TRUE,TRUE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Palaeoptera,,Ephemeroptera,Furcatergalia,Pannota,Ephemerelloidea,Ephemerellidae,,,,,,Attenella,,,delantala,,Attenella delantala,101345,Species,TRUE,TRUE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Palaeoptera,,Ephemeroptera,Furcatergalia,Pannota,Ephemerelloidea,Ephemerellidae,,,,,,Attenella,,,margarita,,Attenella margarita,101343,Species,TRUE,TRUE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Palaeoptera,,Ephemeroptera,Furcatergalia,Pannota,Ephemerelloidea,Ephemerellidae,,,,,,Caudatella,,,,,Caudatella,101347,Genus,TRUE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Palaeoptera,,Ephemeroptera,Furcatergalia,Pannota,Ephemerelloidea,Ephemerellidae,,,,,,Caudatella,,,heterocaudata,,Caudatella heterocaudata,101351,Species,TRUE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Palaeoptera,,Ephemeroptera,Furcatergalia,Pannota,Ephemerelloidea,Ephemerellidae,,,,,,Caudatella,,,hystrix,,Caudatella hystrix,101348,Species,TRUE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Palaeoptera,,Ephemeroptera,Furcatergalia,Pannota,Ephemerelloidea,Ephemerellidae,,,,,,Drunella,,,,,Drunella,101365,Genus,TRUE,TRUE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Palaeoptera,,Ephemeroptera,Furcatergalia,Pannota,Ephemerelloidea,Ephemerellidae,,,,,,Drunella,,,coloradensis,,Drunella coloradensis,101389,Species,TRUE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Palaeoptera,,Ephemeroptera,Furcatergalia,Pannota,Ephemerelloidea,Ephemerellidae,,,,,,Drunella,,,doddsii,,Drunella doddsii,698494,Species,TRUE,TRUE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Palaeoptera,,Ephemeroptera,Furcatergalia,Pannota,Ephemerelloidea,Ephemerellidae,,,,,,Drunella,,,grandis,,Drunella grandis,101370,Species,TRUE,TRUE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Palaeoptera,,Ephemeroptera,Furcatergalia,Pannota,Ephemerelloidea,Ephemerellidae,,,,,,Drunella,,,spinifera,,Drunella spinifera,101385,Species,TRUE,TRUE,FALSE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Palaeoptera,,Ephemeroptera,Furcatergalia,Pannota,Ephemerelloidea,Ephemerellidae,,,,,,Drunella,Drunella coloradensis/flavilinea,,,,Drunella coloradensis/flavilinea,-10,Species Group,TRUE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Palaeoptera,,Ephemeroptera,Furcatergalia,Pannota,Ephemerelloidea,Ephemerellidae,,,,,,Drunella,Drunella grandis/spinifera,,,,Drunella grandis/spinifera,-11,Species Group,TRUE,TRUE,FALSE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Palaeoptera,,Ephemeroptera,Furcatergalia,Pannota,Ephemerelloidea,Ephemerellidae,,,,,,Ephemerella,,,,,Ephemerella,101233,Genus,TRUE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Palaeoptera,,Ephemeroptera,Furcatergalia,Pannota,Ephemerelloidea,Ephemerellidae,,,,,,Ephemerella,,,aurivillii,,Ephemerella aurivillii,101255,Species,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Palaeoptera,,Ephemeroptera,Furcatergalia,Pannota,Ephemerelloidea,Ephemerellidae,,,,,,Ephemerella,,,dorothea,infrequens,Ephemerella dorothea infrequens,698506,Subspecies,TRUE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Palaeoptera,,Ephemeroptera,Furcatergalia,Pannota,Ephemerelloidea,Ephemerellidae,,,,,,Ephemerella,,,excrucians,,Ephemerella excrucians,101276,Species,TRUE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Palaeoptera,,Ephemeroptera,Furcatergalia,Pannota,Ephemerelloidea,Ephemerellidae,,,,,,Ephemerella,,,tibialis,,Ephemerella tibialis,101401,Species,TRUE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Palaeoptera,,Ephemeroptera,Furcatergalia,Pannota,Ephemerelloidea,Ephemerellidae,,,,,,Ephemerella,Ephemerella inermis/infrequens,,,,Ephemerella inermis/infrequens,-146,Species Group,TRUE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Palaeoptera,,Ephemeroptera,Furcatergalia,Pannota,Ephemerelloidea,Ephemerellidae,,,,,,Serratella,,,,,Serratella,101395,Genus,TRUE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Palaeoptera,,Ephemeroptera,Furcatergalia,Pannota,Ephemerelloidea,Ephemerellidae,,,,,,Serratella,,,micheneri,,Serratella micheneri,568639,Species,TRUE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Palaeoptera,,Ephemeroptera,Furcatergalia,Pannota,Ephemerelloidea,Ephemerellidae,,,,,,Serratella,,,teresa,,Serratella teresa,568641,Species,TRUE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Palaeoptera,,Ephemeroptera,Furcatergalia,Pannota,Ephemerelloidea,Ephemerellidae,,,,,,Serratella,,,tibialis,,Serratella tibialis,101399,Species,TRUE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Palaeoptera,,Ephemeroptera,Furcatergalia,Pannota,Ephemerelloidea,Ephemerellidae,,,,,,Timpanoga,,,,,Timpanoga,101317,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Palaeoptera,,Ephemeroptera,Furcatergalia,Pannota,Ephemerelloidea,Ephemerellidae,,,,,,Timpanoga,,,hecuba,,Timpanoga hecuba,101318,Species,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Palaeoptera,,Ephemeroptera,Furcatergalia,Pannota,Ephemerelloidea,Leptohyphidae,,,,,,,,,,,Leptohyphidae,568545,Family,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Palaeoptera,,Ephemeroptera,Furcatergalia,Pannota,Ephemerelloidea,Leptohyphidae,,,,,,Tricorythodes,,,,,Tricorythodes,101405,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Palaeoptera,,Ephemeroptera,Furcatergalia,Pannota,Ephemerelloidea,Leptohyphidae,,,,,,Tricorythodes,,,explicatus,,Tricorythodes explicatus,101419,Species,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Palaeoptera,,Ephemeroptera,Furcatergalia,Pannota,Ephemerelloidea,Leptohyphidae,,,,,,Tricorythodes,,,minutus,,Tricorythodes minutus,101413,Species,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Palaeoptera,,Ephemeroptera,Pisciforma,,,Ameletidae,,,,,,Ameletus,,,,,Ameletus,100996,Genus,TRUE,TRUE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Palaeoptera,,Ephemeroptera,Pisciforma,,,Baetidae,,,,,,,,,,,Baetidae,100755,Family,TRUE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Palaeoptera,,Ephemeroptera,Pisciforma,,,Baetidae,,,,,,Acentrella,,,,,Acentrella,100801,Genus,TRUE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Palaeoptera,,Ephemeroptera,Pisciforma,,,Baetidae,,,,,,Acentrella,,,insignificans,,Acentrella insignificans,568572,Species,TRUE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Palaeoptera,,Ephemeroptera,Pisciforma,,,Baetidae,,,,,,Acentrella,,,turbida,,Acentrella turbida,568574,Species,TRUE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Palaeoptera,,Ephemeroptera,Pisciforma,,,Baetidae,,,,,,Baetis,,,,,Baetis,100800,Genus,TRUE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Palaeoptera,,Ephemeroptera,Pisciforma,,,Baetidae,,,,,,Baetis,,,bicaudatus,,Baetis bicaudatus,100823,Species,TRUE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Palaeoptera,,Ephemeroptera,Pisciforma,,,Baetidae,,,,,,Baetis,,,flavistriga,,Baetis flavistriga,100835,Species,TRUE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Palaeoptera,,Ephemeroptera,Pisciforma,,,Baetidae,,,,,,Baetis,,,notos,,Baetis notos,568579,Species,TRUE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Palaeoptera,,Ephemeroptera,Pisciforma,,,Baetidae,,,,,,Baetis,,,tricaudatus,,Baetis tricaudatus,100817,Species,TRUE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Palaeoptera,,Ephemeroptera,Pisciforma,,,Baetidae,,,,,,Callibaetis,,,,,Callibaetis,100903,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Palaeoptera,,Ephemeroptera,Pisciforma,,,Baetidae,,,,,,Centroptilum,,,,,Centroptilum,100873,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Palaeoptera,,Ephemeroptera,Pisciforma,,,Baetidae,,,,,,Centroptilum,,,conturbatum,,Centroptilum conturbatum,100875,Species,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Palaeoptera,,Ephemeroptera,Pisciforma,,,Baetidae,,,,,,Diphetor,,,,,Diphetor,568550,Genus,TRUE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Palaeoptera,,Ephemeroptera,Pisciforma,,,Baetidae,,,,,,Diphetor,,,hageni,,Diphetor hageni,568598,Species,TRUE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Palaeoptera,,Ephemeroptera,Pisciforma,,,Baetidae,,,,,,Fallceon,,,quilleri,,Fallceon quilleri,568601,Species,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Palaeoptera,,Ephemeroptera,Pisciforma,,,Baetidae,,,,,,Procloeon,,,,,Procloeon,206622,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Palaeoptera,,Ephemeroptera,Pisciforma,,,Baetidae,,,,,,Pseudocloeon,,,,,Pseudocloeon,100771,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Palaeoptera,,Ephemeroptera,Pisciforma,,,Baetidae,,,,Centroptilum/Procloeon,,,,,,,Centroptilum/Procloeon,-4,Genus Group,FALSE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Palaeoptera,,Ephemeroptera,Setisura,,,Heptageniidae,,,,,,,,,,,Heptageniidae,100504,Family,TRUE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Palaeoptera,,Ephemeroptera,Setisura,,,Heptageniidae,,,,,,Cinygma,,,,,Cinygma,100598,Genus,TRUE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Palaeoptera,,Ephemeroptera,Setisura,,,Heptageniidae,,,,,,Cinygmula,,,,,Cinygmula,100557,Genus,TRUE,TRUE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Palaeoptera,,Ephemeroptera,Setisura,,,Heptageniidae,,,,,,Ecdyonurus,,,criddlei,,Ecdyonurus criddlei,698149,Species,TRUE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Palaeoptera,,Ephemeroptera,Setisura,,,Heptageniidae,,,,,,Epeorus,,,,,Epeorus,100626,Genus,TRUE,TRUE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Palaeoptera,,Ephemeroptera,Setisura,,,Heptageniidae,,,,,,Epeorus,,,albertae,,Epeorus albertae,100629,Species,TRUE,TRUE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Palaeoptera,,Ephemeroptera,Setisura,,,Heptageniidae,,,,,,Epeorus,,,deceptivus,,Epeorus deceptivus,100632,Species,TRUE,TRUE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Palaeoptera,,Ephemeroptera,Setisura,,,Heptageniidae,,,,,,Epeorus,,,grandis,,Epeorus grandis,100635,Species,TRUE,TRUE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Palaeoptera,,Ephemeroptera,Setisura,,,Heptageniidae,,,,,,Epeorus,,,longimanus,,Epeorus longimanus,100637,Species,TRUE,TRUE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Palaeoptera,,Ephemeroptera,Setisura,,,Heptageniidae,,,,,,Heptagenia,,,,,Heptagenia,100602,Genus,TRUE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Palaeoptera,,Ephemeroptera,Setisura,,,Heptageniidae,,,,,,Ironodes,,,,,Ironodes,100666,Genus,TRUE,TRUE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Palaeoptera,,Ephemeroptera,Setisura,,,Heptageniidae,,,,,,Nixe,,,,,Nixe,100692,Genus,TRUE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Palaeoptera,,Ephemeroptera,Setisura,,,Heptageniidae,,,,,,Rhithrogena,,,,,Rhithrogena,100572,Genus,TRUE,TRUE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Palaeoptera,,Ephemeroptera,Setisura,,,Heptageniidae,,,,,,Stenacron,,,,,Stenacron,100713,Genus,TRUE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Palaeoptera,,Ephemeroptera,Setisura,,,Heptageniidae,,,,,,Stenonema,,,,,Stenonema,100507,Genus,TRUE,FALSE,FALSE,FALSE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Palaeoptera,,Odonata,Anisoptera,,,Aeshnidae,,,,,,,,,,,Aeshnidae,101596,Family,FALSE,FALSE,FALSE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Palaeoptera,,Odonata,Anisoptera,,,Cordulegastridae,,,,,,Cordulegaster,,,,,Cordulegaster,102027,Genus,FALSE,FALSE,FALSE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Palaeoptera,,Odonata,Anisoptera,,,Gomphidae,,,,,,,,,,,Gomphidae,101664,Family,FALSE,FALSE,TRUE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Palaeoptera,,Odonata,Anisoptera,,,Gomphidae,,,,,,Octogomphus,,,,,Octogomphus,101736,Genus,FALSE,FALSE,TRUE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Palaeoptera,,Odonata,Anisoptera,,,Gomphidae,,,,,,Octogomphus,,,specularis,,Octogomphus specularis,101737,Species,FALSE,FALSE,TRUE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Palaeoptera,,Odonata,Anisoptera,,,Libellulidae,,,,,,,,,,,Libellulidae,101797,Family,FALSE,FALSE,FALSE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Palaeoptera,,Odonata,Anisoptera,,,Libellulidae,,,,,,Sympetrum,,,,,Sympetrum,101976,Genus,FALSE,FALSE,FALSE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Palaeoptera,,Odonata,Zygoptera,,,Coenagrionidae,,,,,,,,,,,Coenagrionidae,102077,Family,FALSE,FALSE,FALSE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Palaeoptera,,Odonata,Zygoptera,,,Coenagrionidae,,,,,,Argia,,,,,Argia,102139,Genus,TRUE,FALSE,FALSE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Palaeoptera,,Odonata,Zygoptera,,,Coenagrionidae,,,,,,Enallagma,,,,,Enallagma,102102,Genus,FALSE,FALSE,FALSE,TRUE,FALSE
+,Arthropoda,Hexapoda,,Insecta,Pterygota,Palaeoptera,,Odonata,Zygoptera,,,Lestidae,,,,,,Lestes,,,,,Lestes,102061,Genus,FALSE,FALSE,FALSE,TRUE,FALSE
+,Cnidaria,,,Hydrozoa,,,,,,,,,,,,,,,,,,,Hydrozoa,48739,Class,FALSE,FALSE,FALSE,TRUE,FALSE
+,Cnidaria,,,Hydrozoa,Hydroidolina,,,Anthoathecatae,Capitata,,,Hydridae,,,,,,Hydra,,,,,Hydra,50845,Genus,FALSE,FALSE,FALSE,TRUE,FALSE
+,Mollusca,,,Bivalvia,,,,,,,,,,,,,,,,,,,Bivalvia,79118,Class,FALSE,FALSE,TRUE,FALSE,FALSE
+,Mollusca,,,Bivalvia,Heterodonta,,,Veneroida,,,Corbiculoidea,Corbiculidae,,,,,,Corbicula,,,,,Corbicula,81385,Genus,FALSE,FALSE,TRUE,FALSE,FALSE
+,Mollusca,,,Bivalvia,Heterodonta,,,Veneroida,,,Corbiculoidea,Pisidiidae,,,,,,,,,,,Pisidiidae,81388,Family,FALSE,FALSE,TRUE,FALSE,FALSE
+,Mollusca,,,Bivalvia,Heterodonta,,,Veneroida,,,Corbiculoidea,Pisidiidae,,,,,,Pisidium,,,,,Pisidium,81400,Genus,FALSE,FALSE,TRUE,FALSE,FALSE
+,Mollusca,,,Bivalvia,Heterodonta,,,Veneroida,,,Corbiculoidea,Pisidiidae,,,,,,Sphaerium,,,,,Sphaerium,81391,Genus,FALSE,FALSE,TRUE,FALSE,FALSE
+,Mollusca,,,Bivalvia,Heterodonta,,,Veneroida,,,Corbiculoidea,Sphaeriidae,,,,,,,,,,,Sphaeriidae,81389,Family,FALSE,FALSE,TRUE,FALSE,FALSE
+,Mollusca,,,Bivalvia,Palaeoheterodonta,,,Unionoida,,,,Margaritiferidae,,,,,,Margaritifera,,,falcata,,Margaritifera falcata,80372,Species,FALSE,FALSE,TRUE,FALSE,FALSE
+,Mollusca,,,Bivalvia,Palaeoheterodonta,,,Unionoida,,,,Unionidae,,,,,,,,,,,Unionidae,79913,Family,FALSE,FALSE,TRUE,FALSE,FALSE
+,Mollusca,,,Bivalvia,Palaeoheterodonta,,,Unionoida,,,,Unionidae,,,,,,Pyganodon,,,,,Pyganodon,567112,Genus,FALSE,FALSE,TRUE,FALSE,FALSE
+,Mollusca,,,Gastropoda,,,,,,,,,,,,,,,,,,,Gastropoda,69459,Class,FALSE,FALSE,FALSE,FALSE,FALSE
+,Mollusca,,,Gastropoda,,,,Basommatophora,,,,Ancylidae,,,,,,,,,,,Ancylidae,76568,Family,FALSE,FALSE,FALSE,FALSE,FALSE
+,Mollusca,,,Gastropoda,,,,Basommatophora,,,,Ancylidae,,,,,,Ferrissia,,,,,Ferrissia,76569,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Mollusca,,,Gastropoda,,,,Basommatophora,,,,Ancylidae,,,,,,Ferrissia,,,rivularis,,Ferrissia rivularis,76572,Species,FALSE,FALSE,FALSE,FALSE,FALSE
+,Mollusca,,,Gastropoda,,,,Basommatophora,,,,Lymnaeidae,,,,,,,,,,,Lymnaeidae,76483,Family,FALSE,FALSE,FALSE,FALSE,FALSE
+,Mollusca,,,Gastropoda,,,,Basommatophora,,,,Lymnaeidae,,,,,,Fossaria,,,,,Fossaria,76497,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Mollusca,,,Gastropoda,,,,Basommatophora,,,,Lymnaeidae,,,,,,Lymnaea,,,,,Lymnaea,76484,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Mollusca,,,Gastropoda,,,,Basommatophora,,,,Lymnaeidae,,,,,,Stagnicola,,,,,Stagnicola,76534,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Mollusca,,,Gastropoda,,,,Basommatophora,,,,Physidae,,,,,,,,,,,Physidae,76676,Family,FALSE,FALSE,FALSE,FALSE,TRUE
+,Mollusca,,,Gastropoda,,,,Basommatophora,,,,Physidae,,,,,,Physa,,,,,Physa,76677,Genus,FALSE,FALSE,FALSE,FALSE,TRUE
+,Mollusca,,,Gastropoda,,,,Basommatophora,,,,Physidae,,,,,,Physella,,,,,Physella,76698,Genus,FALSE,FALSE,FALSE,FALSE,TRUE
+,Mollusca,,,Gastropoda,,,,Basommatophora,,,,Planorbidae,,,,,,,,,,,Planorbidae,76591,Family,FALSE,FALSE,FALSE,FALSE,FALSE
+,Mollusca,,,Gastropoda,,,,Basommatophora,,,,Planorbidae,,,,,,Gyraulus,,,,,Gyraulus,76592,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Mollusca,,,Gastropoda,,,,Basommatophora,,,,Planorbidae,,,,,,Helisoma,,,,,Helisoma,76599,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Mollusca,,,Gastropoda,,,,Basommatophora,,,,Planorbidae,,,,,,Menetus,,,,,Menetus,76626,Genus,FALSE,FALSE,FALSE,FALSE,TRUE
+,Mollusca,,,Gastropoda,,,,Basommatophora,,,,Planorbidae,,,,,,Promenetus,,,,,Promenetus,76621,Genus,FALSE,FALSE,FALSE,FALSE,TRUE
+,Mollusca,,,Gastropoda,,,,Neotaenioglossa,,,,Caecidae,,,,,,,,,,,Caecidae,71372,Family,FALSE,FALSE,FALSE,FALSE,FALSE
+,Mollusca,,,Gastropoda,,,,Neotaenioglossa,,,,Hydrobiidae,,,,,,,,,,,Hydrobiidae,70493,Family,FALSE,FALSE,TRUE,FALSE,FALSE
+,Mollusca,,,Gastropoda,,,,Neotaenioglossa,,,,Hydrobiidae,,,,,,Fluminicola,,,,,Fluminicola,70778,Genus,FALSE,FALSE,TRUE,FALSE,FALSE
+,Mollusca,,,Gastropoda,,,,Neotaenioglossa,,,,Hydrobiidae,,,,,,Pristinicola,,,,,Pristinicola,567099,Genus,FALSE,FALSE,TRUE,FALSE,FALSE
+,Mollusca,,,Gastropoda,,,,Neotaenioglossa,,,,Hydrobiidae,,,,,,Pristinicola,,,hemphilli,,Pristinicola hemphilli,568126,Species,FALSE,FALSE,TRUE,FALSE,FALSE
+,Mollusca,,,Gastropoda,,,,Neotaenioglossa,,,,Pleuroceridae,,,,,,Juga,,,,,Juga,71570,Genus,FALSE,FALSE,TRUE,FALSE,FALSE
+,Nemata,,,,,,,,,,,,,,,,,,,,,,Nemata,563956,Phylum,FALSE,FALSE,FALSE,FALSE,FALSE
+,Nematomorpha,,,,,,,,,,,,,,,,,,,,,,Nematomorpha,64183,Phylum,FALSE,FALSE,FALSE,FALSE,FALSE
+,Nemertea,,,,,,,,,,,,,,,,,,,,,,Nemertea,57411,Phylum,FALSE,FALSE,FALSE,FALSE,FALSE
+,Nemertea,,,Enopla,,,,Hoplonemertea,Monostilifera,,,Tetrastemmatidae,,,,,,Prostoma,,,,,Prostoma,57577,Genus,FALSE,FALSE,FALSE,TRUE,FALSE
+,Platyhelminthes,,,Turbellaria,,,,,,,,,,,,,,,,,,,Turbellaria,53964,Class,FALSE,FALSE,FALSE,FALSE,FALSE
+,Platyhelminthes,,,Turbellaria,Archoophora,,,Tricladida,,,,Planariidae,,,,,,,,,,,Planariidae,54502,Family,FALSE,FALSE,FALSE,FALSE,FALSE
+,Platyhelminthes,,,Turbellaria,Archoophora,,,Tricladida,,,,Planariidae,,,,,,Planaria,,,,,Planaria,54528,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Platyhelminthes,,,Turbellaria,Archoophora,,,Tricladida,,,,Planariidae,,,,,,Polycelis,,,,,Polycelis,54510,Genus,FALSE,FALSE,FALSE,FALSE,FALSE
+,Platyhelminthes,,,Turbellaria,Archoophora,,,Tricladida,,,,Planariidae,,,,,,Polycelis,,,coronata,,Polycelis coronata,54512,Species,FALSE,FALSE,FALSE,FALSE,FALSE
