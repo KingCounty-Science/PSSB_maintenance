@@ -146,13 +146,38 @@ list.of.rank.column.names <- c("Subspecies.taxa",
                                "Subclass.taxa",
                                "Class.taxa",
                                "Phylum.taxa")
-i <-3
+i <-1
 j<-3
 
-#trim the dataset
-trim<-taxa_atts_factor[,1:25]
+#trim the dataset to be just the taxa that don't have attributes
+no_atts_df <-taxa_atts_factor |> filter(att_stat == "no_atts")
+trim_noatts<-no_atts_df[,1:25]
 
-##Abandoning project. Not clear how PSSB chooses the rank to use for attributes...
+# Create an empty data frame
+attribs2<-data.frame(Taxon.Name=character(), 
+                     Predator=character(), 
+                     Long.Lived=character(), 
+                     Tolerant=character(), 
+                     Intolerant=character(), 
+                     Clinger=character(), 
+                     OTU_COARSE=character(),
+                     iter=numeric())
+
+#tighten up the attribute dataset
+trim_butes<-pssb_atts |> select(Taxon.Name.atts, Fore.Wisseman.2012.Clinger.atts, Fore.Wisseman.2012.Intolerant.atts, Fore.Wisseman.2012.Long.Lived.atts, Fore.Wisseman.2012.Predator.atts, Fore.Wisseman.2012.Tolerant.atts) 
+names(trim_noatts)
+
+for (i in 1:(ncol(trim_noatts)-1)){
+  k<-(ncol(trim_noatts)+1)-i
+  attribs<-merge(trim_butes, 
+                 trim_noatts[, c(k, 1,2)], 
+                 by.x="Taxon.Name.atts", 
+                 by.y=names(trim_noatts[k]))
+  
+  attribs2<-rbind(attribs, attribs2)
+  names(attribs2)<-str_replace(names(attribs2), ".1", "")
+  missing_atts<-subset(missing_atts, !OTU_COARSE %in% attribs2$OTU_COARSE)
+}
 
 for (i in 1:(length(TSN.noatts)){ 
   taxa_row <- trim |> filter(Taxon.Serial.Number == TSN.noatts[i])
