@@ -7,7 +7,6 @@
 # load relevant packages ####
 library(tidyverse) #for reading in data and wrangling
 library(writexl) #for saving as an excel file
-library(Microsoft365R) #for accessing sharepoint
 
 # Prepare the two data sets ####
 
@@ -89,7 +88,7 @@ long_OFGS_chart <-taxa_atts_factor |>
               values_from = n,
               values_fill = 0)
 
-write.xlsx(long_OFGS_chart, "long_OFGS_chart.xlsx")
+write.xlsx(long_OFGS_chart, "compare_attributes/long_OFGS_chart.xlsx")
 
 # Some questions we can ask. How often does a species get ID to a higher taxonomic rank?
 # We can tally up the total number of "Rank" that are species, and that also have "no_atts"
@@ -99,131 +98,57 @@ taxa_atts_factor |>
 # 205 species, separated by order (#cut "Family" out of count() call to see number)
 
 #write the full table to excel.
-write_xlsx(taxa_atts_factor, "observedtaxon_attributes.xlsx")
-
-
-#identify which site I want to write to:
-list_sharepoint_sites() #list the sites I have access to by name
-site <- get_sharepoint_site("​​​​​Science Files") #write the name of the site I want (a separate browser window opens and logs me into Sharepoint with my King County credentials) # I don't understand why those red dots make it work, but it does.
-
-# default drive is the main page document library, so we need to find the other drives
-site$list_drives() #list the drives. I see LSSG on there
-drv <- site$get_drive("LSSG Files")
-drv$list_files("Freshwater/Streams/Freshwater Macroinvertebrate Program/PSSB/PSSB 1.0", full_names=TRUE) #make sure I understand the file structure
-drv$save_dataframe(taxa_atts_factor, "Freshwater/Streams/Freshwater Macroinvertebrate Program/PSSB/PSSB 1.0/observedtaxon_attributes.csv")
-
+write_xlsx(taxa_atts_factor, "compare_attributes/observedtaxon_attributes.xlsx")
 
 #PSSB assigns the attribute of the next available rank above it. I want to figure out how to add two columns to my table. The first column will be the taxon name that is used for attributes, the second column the rank of that taxon. This only needs to happen for the 
-TSN.noatts <-taxa_atts_factor |> filter(att_stat == "no_atts") |> select(Taxon.Serial.Number) |> pull()
-
-list.of.potential.ranks <- taxa_atts_factor |> 
-  select(`Taxonomic Rank.atts`) |> 
-  drop_na() |> 
-  unique() |> 
-  pull()
-
-list.of.ranks.of.taxa.missing.atts <- taxa_atts_factor |> 
-  filter(att_stat == "no_atts") |> 
-  select(`Rank.taxa`) |> 
-  drop_na() |> 
-  unique() |> 
-  pull() 
-
-#referencing the list above, I created an ordered list of headings to consider.
-list.of.rank.column.names <- c("Subspecies.taxa",
-                               "Species.taxa",
-                               "Subgenus.taxa",
-                               "Species.Group.taxa",
-                               "Genus.taxa",
-                               "Genus.Group.taxa",
-                               "Tribe.taxa",
-                               "Subfamily.taxa",
-                               "Family.taxa",
-                               "Superfamily.taxa", #not on potential rank list
-                               "Infraorder.taxa", #not on potential rank list
-                               "Suborder.taxa",
-                               "Order.taxa",
-                               "Subclass.taxa",
-                               "Class.taxa",
-                               "Phylum.taxa")
-i <-1
-j<-3
 
 #trim the dataset to be just the taxa that don't have attributes
 no_atts_df <-taxa_atts_factor |> filter(att_stat == "no_atts")
 trim_noatts<-no_atts_df[,1:25]
 
+#tighten up the attribute dataset
+trim_butes<-pssb_atts |> select(Taxon.Name.atts, 
+                                TSN.atts, 
+                                Taxonomic.Rank.atts, 
+                                Fore.Wisseman.2012.Clinger.atts,
+                                Fore.Wisseman.2012.Intolerant.atts, 
+                                Fore.Wisseman.2012.Long.Lived.atts, 
+                                Fore.Wisseman.2012.Predator.atts,
+                                Fore.Wisseman.2012.Tolerant.atts) 
+colnames(trim_butes) <- c("Taxon.Name", "Att.TSN", "Att.Rank", "Clinger", "Intolerant", "Longlived", "Predator", "Tolerant")
+
 # Create an empty data frame
 attribs2<-data.frame(Taxon.Name=character(), 
-                     Predator=character(), 
-                     Long.Lived=character(), 
-                     Tolerant=character(), 
+                     Att.TSN = integer(),
+                     Attribute.Rank = character(),
+                     Clinger=character(),
                      Intolerant=character(), 
-                     Clinger=character(), 
-                     OTU_COARSE=character(),
-                     iter=numeric())
+                     LongLived=character(),
+                     Predator=character(), 
+                     Tolerant=character(),
+                     Taxon.Serial.Number=character(),
+                     Taxon = character(),
+                     Rank = character())
 
-#tighten up the attribute dataset
-trim_butes<-pssb_atts |> select(Taxon.Name.atts, Fore.Wisseman.2012.Clinger.atts, Fore.Wisseman.2012.Intolerant.atts, Fore.Wisseman.2012.Long.Lived.atts, Fore.Wisseman.2012.Predator.atts, Fore.Wisseman.2012.Tolerant.atts) 
-names(trim_noatts)
-
-for (i in 1:(ncol(trim_noatts)-1)){
+for (i in 1:(ncol(trim_noatts)-3)){
   k<-(ncol(trim_noatts)+1)-i
   attribs<-merge(trim_butes, 
-                 trim_noatts[, c(k, 1,2)], 
-                 by.x="Taxon.Name.atts", 
+                 trim_noatts[, c(k, 1,2,3)], 
+                 by.x="Taxon.Name", 
                  by.y=names(trim_noatts[k]))
   
   attribs2<-rbind(attribs, attribs2)
-  names(attribs2)<-str_replace(names(attribs2), ".1", "")
-  missing_atts<-subset(missing_atts, !OTU_COARSE %in% attribs2$OTU_COARSE)
+  trim_noatts<-subset(trim_noatts, !Taxon %in% attribs2$Taxon)
 }
 
-for (i in 1:(length(TSN.noatts)){ 
-  taxa_row <- trim |> filter(Taxon.Serial.Number == TSN.noatts[i])
-  content.index <- which(is.na(taxa_row) == FALSE)
-  hi.low <- rev(content.index)
-  for (j in 1:length(hi.low)) {
-    rank.to.test.num <-hi.low[j+1]
-    rank.to.test.word <- as.character(taxa_row[rank.to.test.num])
-    rows.to.test <- which(taxa_atts_factor[,rank.to.test.num]==rank.to.test.word)
-    test.mat1 <-taxa_atts_factor[rows.to.test,]
-    if sum(test.mat1$att_stat == "atts")>0 
-    col.nam <-colnames(taxa_row[rank.to.test.num])
-    new.col.name <-paste0(col.nam,".atts")
-    test.mat1[,26:56]
-    else
-      #I think the next step is a which test.mat1 matches at the needed row, but is NA for all the rest (but not attributes). If that is just 1 answer, then we use the attributes.
-      next
-    
-  }
-  
-  rank.name <-taxa_row$Rank
-  taxa_row
-  
-  rank.of.taxa <-taxa_row |> select(Rank.taxa)
-  rank.of.taxa_renamed<-paste0(rank.of.taxa, ".taxa")
-  indexed.rank <-which(list.of.rank.column.names == rank.of.taxa_renamed)
-  next.rank <- list.of.rank.column.names[indexed.rank + 1]
-  content <-taxa_row |> select(all_of(next.rank))
-  if(is.na(content) == TRUE {
-    is.na(taxa_row |> select(all_of(list.of.rank.column.names[indexed.rank + 2]))) == TRUE
-  } else if {
-    is.na(taxa_row |> select(all_of(list.of.rank.column.names[indexed.rank + 3]))) == TRUE
-  } else if {
-    is.na(taxa_row |> select(all_of(list.of.rank.column.names[indexed.rank + 4]))) == TRUE
-  } else {
-    rank.2.check <- list.of.rank.column.names[indexed.rank + 4]
-  }
-  taxa.2.check <-taxa_row |> select(all_of(rank.2.check))
-  taxa_atts_factor |> filter(Family.taxa == "Caenidae") #work on semantics.
-  
-  a <- i
-  print(a)
-}
+write.csv(attribs2, "compare_attributes/atts_from_ranks_above.csv")
+write.csv(trim_noatts, "compare_attributes/no_atts_after_assign.csv")
 
-colnames(taxa_row)
+review <- (left_join(taxa_atts_factor, 
+                     attribs2,
+                     by = c("Taxon","Taxon.Serial.Number")))
 
+write_xlsx(review, "compare_attributes/attributes_assigned_inferred.xlsx")
 #old
 
 # Create a list of all taxon in PSSB with their name and their TSN
