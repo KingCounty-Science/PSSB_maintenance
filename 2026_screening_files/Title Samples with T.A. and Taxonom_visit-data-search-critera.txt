@@ -1,0 +1,8 @@
+Title: Samples with T.A. and Taxonomy
+Area Filter: All Streams and Rivers
+Date Filter: From 1994, all events at each site
+Taxa Attributes: Fore, Wisseman, 2012 (recommended for 0-100 B-IBI)
+Taxa Mapping: Use original taxa
+Organisms per Visit: At most 500, when over 500, subsampled using method 1 (semi-random, conserves taxa richness)
+Sorted by: Location, Agency, Project, Site Code, Date, Sample Code
+Generation Time: 4/6/2026 12:17 PM
