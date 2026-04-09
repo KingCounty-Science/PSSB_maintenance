@@ -1,6 +1,13 @@
 #added by beka
 PSSB_all_data/
 
+#taxa attributes tinkering
+TaxaAttributes Notebook.Rmd
+TaxaAttributes Notebook.nb.html
+compare_attributes/
+long_OFGS_chart.xlsx
+observedtaxon_attributes.xlsx
+
 .Rproj.user
 .Rhistory
 .RData
