@@ -1,16 +1,27 @@
+#--- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- 
+# 
+# Beka Stiling created this 2026 version starting April 2026
+# The goal of this script is to go through the names of taxa observed in PSSB, the mapping recommended by the BCG working group, and the mapping recorded in PSSB. 
+# The screening outcomes will:
+# 1) Reveal what additional mapping needs to be added to the PSSB list.
+# 2) Reveal what taxa are newly observed that the BCG work group should map.
+# 3) Flag what taxa we should review for taxa mapping.
+#
+#--- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- 
+
 library(openxlsx)
 library(tidyverse)
 library(janitor) #to clean names
 
-# setwd("C:/Users/esosik/King County/DNRP - Science TCA Unit - Bug Monitoring/PSSB issues/STE_attrib_updates")
-
-# PSSBmapping<-read.xlsx("STE_Mapping_Atts_Draft.xlsx", detectDates = T, sheet="Draft Mapping")#load the mapping used by PSSB
+#load the mapping used by PSSB, downloaded from "Analysis"  -> "Taxa Mapping"
 PSSBmapping<-read_csv("2026_screening_files/Taxa-mapping_20260406.csv") |> 
   clean_names()#load the mapping used by PSSB
 
+#load the most resent ORWA taxa translator from github.
 BCGmapping<-read_csv("2026_screening_files/ORWA_TaxaTranslator_20250812.csv") |> 
   clean_names()# load the latest BCG mapping
 
+#merge the two together by "alternate_name" (i.e., the name put in by the lab") and "taxon_orig" (i.e., the original taxa name prior to mapping to modern/current name.)
 mapping<-merge(PSSBmapping, BCGmapping, by.x=c("alternate_name"), by.y=c("taxon_orig"), all=T) #merge the two mappings together, keep all items in both dataframes
 
 #Why are there 5 additional rows here? What rows are on this mapping list that are not on the BCGmapping list?
@@ -44,12 +55,18 @@ taxaBind <- function(file.path) {
 
 file.path="./2026_screening_files/PSSB-visitdata/" ##data downloaded and current as of 04/06/2026-- all PSSB rivers and streams data
 raw<-taxaBind(file.path)
+
+raw |> filter (Taxon == "Rhyacophila Ecosa Group")
+raw |> filter (Taxon == "Limnophilinae")
+
 names(raw)
 PSSB_taxa<- raw |> select(Taxon.Serial.Number, Taxon, c(Rank:Subspecies)) |> unique()
 
 ##there are some repeat entries that somewhere in the hierarchy have an NA instead of "". This yields multiples of the same taxa. Fix this.
 PSSB_taxa[is.na(PSSB_taxa)]<-""
 PSSB_taxa<-unique(PSSB_taxa) #we're generating a list of all taxa in PSSB samples
+
+PSSB_taxa |> filter(Taxon == "Rhyacophila Ecosa Group")
 
 mapping<-merge(mapping, PSSB_taxa, by.x=c("alternate_name"), by.y=c("Taxon"), all.y=T) #merge the PSSB taxa list iwth the mapping dataframe, and limit the output to only taxa in the PSSB taxa list.
 
@@ -71,8 +88,8 @@ missingBCGmapping$alternate_name[missingBCGmapping$alternate_name %in% missingPS
 
 ###this next section checks to see if existing mappings have changed since the last version of the BCG table.
 
-changedmapping<-mapping[which(mapping$Preferred.Name !=mapping$OTU_MetricCalc),c("Alternate.Name", "Preferred.Name", "OTU_MetricCalc")] ##in many cases, the BCG translates taxa to "DNI" meaning "Do Not Include". But since these taxa are not explicitly excluded in the PSSB calculations, we created mappings for these in PSSB based simply on copying the taxa name into the mapping column. BAS also did not wish to enter "Polycentropus sensu lato" as a new taxa in PSSB since "Polycentropus" already existed (and truly implementing "sensu lato" qualifications in PSSB isn't feasible). So BAS kept the mapping to "Polycentropus". Any other differences should be examined, and the PSSB mappings should be updated to reflect the current BCG translations. Check taxa attributes as well to see if new taxa names should have attributes assigned from old taxa names. 
+changedmapping <- mapping[which(mapping$preferred_name !=mapping$otu_metric_calc),c("alternate_name", "preferred_name", "otu_metric_calc")] ##in many cases, the BCG translates taxa to "DNI" meaning "Do Not Include". But since these taxa are not explicitly excluded in the PSSB calculations, we created mappings for these in PSSB based simply on copying the taxa name into the mapping column. BAS also did not wish to enter "Polycentropus sensu lato" as a new taxa in PSSB since "Polycentropus" already existed (and truly implementing "sensu lato" qualifications in PSSB isn't feasible). So BAS kept the mapping to "Polycentropus". Any other differences should be examined, and the PSSB mappings should be updated to reflect the current BCG translations. Check taxa attributes as well to see if new taxa names should have attributes assigned from old taxa names. 
 
 mapping %>% 
-  filter(Preferred.Name != OTU_MetricCalc) %>% 
-  select("Alternate.Name", "Preferred.Name", "OTU_MetricCalc")
+  filter(preferred_name != otu_metric_calc) %>% 
+  select("alternate_name", "preferred_name", "otu_metric_calc")
