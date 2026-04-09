@@ -71,11 +71,11 @@ PSSB_taxa |> filter(Taxon == "Rhyacophila Ecosa Group")
 mapping<-merge(mapping, PSSB_taxa, by.x=c("alternate_name"), by.y=c("Taxon"), all.y=T) #merge the PSSB taxa list iwth the mapping dataframe, and limit the output to only taxa in the PSSB taxa list.
 
 missingBCGmapping<-subset(mapping, is.na(otu_metric_calc), select="alternate_name")##these are taxa in PSSB samples that have not been translated by the BCG working group. 
-write.csv(missingBCGmapping, "2026_screening_files/results/Missing_from_BCG_taxa_translator.csv")
+write.csv(missingBCGmapping, "2026_screening_files/2026results/Missing_from_BCG_taxa_translator.csv")
 
 missingPSSBmapping<-subset(mapping, is.na(preferred_name)&((alternate_name!=otu_metric_calc&otu_metric_calc!="DNI")|is.na(otu_metric_calc)))##these are taxa in PSSB samples that don't have a mapping assigned in PSSB. 
 
-write.csv(missingPSSBmapping, "2026_screening_files/results/Missing_from_PSSB_mapping_table.csv")
+write.csv(missingPSSBmapping, "2026_screening_files/2026results/Missing_from_PSSB_mapping_table.csv")
 ###because there may be overlap between the last two, this next section will parse out the differences.
 
 missingPSSBmappingBCGexists<-missingPSSBmapping$alternate_name[!missingPSSBmapping$alternate_name %in% missingBCGmapping$alternate_name] ##these are taxa in PSSB samples that have a BCG translation, but do not have a mapping assigned in PSSB. Update the PSSB mapping to include these. 
