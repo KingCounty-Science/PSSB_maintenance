@@ -85,15 +85,47 @@ PSSB_taxa %>%
   group_by(Taxon, Taxon.Serial.Number) %>% 
   filter(n() > 1)
 
+PSSB_taxa %>% 
+  group_by(Taxon) %>% 
+  filter(n() > 1)
+
+mapping_PSSB_BCG |> 
+  group_by(alternate_name) %>% 
+  filter(n() > 1)
+
+mapping_PSSB_BCG_unique <- mapping_PSSB_BCG |> 
+  select(!rationale) |> 
+  unique()
+
+mapping_PSSB_BCG_unique |>   group_by(alternate_name) %>% 
+  filter(n() > 1)
+
 mapping<-merge(mapping_PSSB_BCG, PSSB_taxa, by.x=c("alternate_name"), by.y=c("Taxon"), all.y=T) #merge the PSSB taxa list with the mapping dataframe, and keep all taxa found in PSSB, the BCG list, and in the PSSB taxa translator.
 
+#attempt to rebase
+mapping2<-right_join(mapping_PSSB_BCG_unique, PSSB_taxa, 
+                   join_by("alternate_name" == "Taxon" , "alternate_tsn" == "Taxon.Serial.Number"))#merge the PSSB taxa list with the mapping dataframe, and keep all taxa found in PSSB, the BCG list, and in the PSSB taxa translator.
+subset(mapping2, 
+       is.na(otu_metric_calc), 
+       select="alternate_name")
+mapping2 |> filter(is.na(otu_metric_calc)) |> select(Taxon)
+
+
 mapping |> filter(alternate_name == "Onconeura")
+
+
 
 ## Now we begin to see which taxa are on what lists.
 missingBCGmapping<-subset(mapping, 
                           is.na(otu_metric_calc), 
                           select="alternate_name")##these are taxa in PSSB samples that have not been translated by the BCG working group. 
 write.csv(missingBCGmapping, "2026_screening_files/2026results/Missing_from_BCG_taxa_translator.csv")
+
+#look at one example
+mapping |> filter(alternate_name == "Antennella")
+
+PSSB_taxa |> filter(Taxon == "Antennella")
+
 #Could I have gotten here by just looking at the PSSB taxa list and the BCG list?
 noBCGmapping<-anti_join(PSSB_taxa, BCGmapping, join_by("Taxon"=="taxon_orig")) |> select("Taxon")
 #yes, this is an alternative path to the same thing.
@@ -102,6 +134,13 @@ missingPSSBmapping<-subset(mapping,
                            is.na(preferred_name) & 
                              ((alternate_name!=otu_metric_calc & otu_metric_calc!="DNI")|
                                 is.na(otu_metric_calc)))##these are taxa in PSSB samples that don't have a mapping assigned in PSSB. 
+
+missingPSSBmapping_part1<-subset(mapping, 
+                           is.na(preferred_name) & 
+                             ((alternate_name!=otu_metric_calc & otu_metric_calc!="DNI")))
+missingPSSBmapping_part2<-subset(mapping, 
+                                 is.na(preferred_name) & 
+                                   (is.na(otu_metric_calc)))
 
 write.csv(missingPSSBmapping, "2026_screening_files/2026results/Missing_from_PSSB_mapping_table.csv")
 
