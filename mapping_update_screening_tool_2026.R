@@ -23,6 +23,9 @@ BCGmapping<-read_csv("2026_screening_files/ORWA_TaxaTranslator_20250812.csv") |>
 
 #merge the two together by "alternate_name" (i.e., the name put in by the lab") and "taxon_orig" (i.e., the original taxa name prior to mapping to modern/current name.)
 mapping_PSSB_BCG<-merge(PSSBmapping, BCGmapping, by.x=c("alternate_name"), by.y=c("taxon_orig"), all=T) #merge the two mappings together, keep all items in both dataframes
+#action item: merge the two mappings together, but keep both original columns (alternate name and taxon orig) in both dataframes
+
+head(mapping_PSSB_BCG_test)
 
 #All taxa in the PSSB list should be in the BCG list, however "mapping" has 4 more observations than the BCGmapping dataframe. Why?
 
@@ -70,7 +73,7 @@ raw<-taxaBind(file.path) #every single entry in PSSB to date!
 
 names(raw)
 
-PSSB_taxa_unique<- raw |> select(Taxon.Serial.Number, Taxon, c(Rank:Subspecies)) |> unique()
+PSSB_taxa_unique <- raw |> select(Taxon.Serial.Number, Taxon, c(Rank:Subspecies)) |> unique()
 
 PSSB_taxa_unique %>% 
   group_by(Taxon, Taxon.Serial.Number) %>% 
@@ -121,10 +124,16 @@ missingBCGmapping<-subset(mapping,
                           select="alternate_name")##these are taxa in PSSB samples that have not been translated by the BCG working group. 
 write.csv(missingBCGmapping, "2026_screening_files/2026results/Missing_from_BCG_taxa_translator.csv")
 
-#look at one example
-mapping |> filter(alternate_name == "Antennella")
+missingBCGmapping_wide<-mapping |> filter(is.na(otu_metric_calc))
+ 
+write.csv(missingBCGmapping_wide, "2026_screening_files/2026results/Missing_from_BCG_taxa_translator_wide.csv")
+#Have Kate review taxa list to ensure new taxa are indeed reasonable/legit and not misidentifications that need to be corrected in PSSB
 
-PSSB_taxa |> filter(Taxon == "Antennella")
+
+missingBCGmapping_all<-mapping |> filter(is.na(otu_metric_calc)) 
+
+
+BCGmapping 
 
 #Could I have gotten here by just looking at the PSSB taxa list and the BCG list?
 noBCGmapping<-anti_join(PSSB_taxa, BCGmapping, join_by("Taxon"=="taxon_orig")) |> select("Taxon")
@@ -169,7 +178,13 @@ missingBCGmapping$alternate_name[missingBCGmapping$alternate_name %in% missingPS
 #3 Check the taxa mapping because it may have changed.
 changedmapping <- mapping[which(mapping$preferred_name !=mapping$otu_metric_calc),c("alternate_name", "preferred_name", "otu_metric_calc")] ##in many cases, the BCG translates taxa to "DNI" meaning "Do Not Include". But since these taxa are not explicitly excluded in the PSSB calculations, we created mappings for these in PSSB based simply on copying the taxa name into the mapping column. BAS also did not wish to enter "Polycentropus sensu lato" as a new taxa in PSSB since "Polycentropus" already existed (and truly implementing "sensu lato" qualifications in PSSB isn't feasible). So BAS kept the mapping to "Polycentropus". Any other differences should be examined, and the PSSB mappings should be updated to reflect the current BCG translations. Check taxa attributes as well to see if new taxa names should have attributes assigned from old taxa names. 
 
+changedmapping_noDNI <- changedmapping |> filter(otu_metric_calc != "DNI")
+
+
+write.csv(changedmapping_noDNI, "2026_screening_files/2026results/changedmapping_noDNI.csv")
+
 #This is an alternative way to look at where preferred name is now different than the otu_metric_calc prefered name. Are these changes? To review with Kate.
 PSSBmappingisdifferentfromBCG<-mapping %>% 
   filter(preferred_name != otu_metric_calc) %>% 
   select("alternate_name", "preferred_name", "otu_metric_calc")
+
