@@ -74,7 +74,7 @@ raw<-taxaBind(file.path) #every single entry in PSSB to date!
 
 names(raw)
 
-write_parquet(raw, "2026_screening_files/2026results/rawPSSB_2002_2025.parquet")
+write_parquet(raw, "2026_screening_files/2026results/rawPSSB_through2025.parquet")
 
 PSSB_taxa_unique <- raw |> select(Taxon.Serial.Number, Taxon, c(Rank:Subspecies)) |> unique()
 
