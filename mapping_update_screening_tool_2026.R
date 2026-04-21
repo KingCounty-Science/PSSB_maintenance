@@ -12,6 +12,7 @@
 library(openxlsx)
 library(tidyverse)
 library(janitor) #to clean names
+library(nanoparquet) #to save raw data as a single file.
 
 #load the mapping used by PSSB, downloaded from "Analysis"  -> "Taxa Mapping"
 PSSBmapping<-read_csv("2026_screening_files/Taxa-mapping_20260406.csv") |> 
@@ -72,6 +73,8 @@ file.path="./2026_screening_files/PSSB-visitdata/" ##data downloaded and current
 raw<-taxaBind(file.path) #every single entry in PSSB to date!
 
 names(raw)
+
+write_parquet(raw, "2026_screening_files/2026results/rawPSSB_2002_2025.parquet")
 
 PSSB_taxa_unique <- raw |> select(Taxon.Serial.Number, Taxon, c(Rank:Subspecies)) |> unique()
 
