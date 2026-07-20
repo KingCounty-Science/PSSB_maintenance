@@ -41,7 +41,7 @@ NZMS <- all_taxa_unique |> filter(Genus == "Potamopyrgus")
 
 stat <- read_csv("site-master_export/NZMS-status-2026.csv")
 unk_stat_names <- stat |> 
-  filter(NZMS != "yes") |> 
+  filter_out(NZMS == "yes") |> 
   select("Site Name") |> 
   pull()
 
@@ -63,8 +63,6 @@ snail_observations_all <- raw |>
 
 snail_observations <- snail_observations_all |> 
   filter(Site.Code %in% unk_stat_names) 
-
-
 
 ggplot(snail_observations,aes(x = year, y = Site.Code, fill = species)) +
   geom_tile() +
