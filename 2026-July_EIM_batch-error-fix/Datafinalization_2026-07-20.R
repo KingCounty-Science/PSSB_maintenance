@@ -1,4 +1,4 @@
-#This is a script that goes with the files in the folder "2025_Documents_to_Upload"
+#This is a scr2026-July_EIM_batch-error-fixipt that goes with the files in the folder "2025_Documents_to_Upload"
 
 #From email: 
 # Batch 1
@@ -21,14 +21,14 @@
 library(tidyverse)
 
 # read in the original uploads.####
-batch1 <- read_csv("2026-July_batch-error-fix/2025_Documents_to_Upload/EIM_2015_2024_batch1.csv")
-batch2 <- read_csv("2026-July_batch-error-fix/2025_Documents_to_Upload/EIM_2015_2024_batch2.csv")
+batch1 <- read_csv("2026-July_EIM_batch-error-fix/2025_Documents_to_Upload/EIM_2015_2024_batch1.csv")
+batch2 <- read_csv("2026-July_EIM_batch-error-fix/2025_Documents_to_Upload/EIM_2015_2024_batch2.csv")
 
 #create a vector of Taxon Names that need to have the Result Taxon TSN removed. Read in csv from Caitlin first.
-warnings_batch1 <- read_csv("2026-July_batch-error-fix/From-Caitlin/EIM_2015_2024_batch1_warnings.csv")
+warnings_batch1 <- read_csv("2026-July_EIM_batch-error-fix/From-Caitlin/EIM_2015_2024_batch1_warnings.csv")
 warnings_batch1_dropTSN <- warnings_batch1 |> select(Result_Taxon_Name ) |> pull()
 
-warnings_batch2 <- read_csv("2026-July_batch-error-fix/From-Caitlin/EIM_2015_2024_batch2_warnings.csv")
+warnings_batch2 <- read_csv("2026-July_EIM_batch-error-fix/From-Caitlin/EIM_2015_2024_batch2_warnings.csv")
 warnings_batch2_dropTSN <- warnings_batch2 |> select(Result_Taxon_Name ) |> pull()
 
 # Fix each error for batch 1 and save as new dataframe
@@ -48,8 +48,8 @@ batch2_corrected <- batch2 |>
   mutate(Result_Taxon_TSN = if_else(Result_Taxon_Name %in% warnings_batch2_dropTSN, NA, Result_Taxon_TSN)) #batch 2, 6
 
 # Write the corrected csvs.
-write_csv(batch1_corrected, "2026-July_batch-error-fix/EIM_2015_2024_batch1_corrected.csv", na = "")
-write_csv(batch2_corrected, "2026-July_batch-error-fix/EIM_2015_2024_batch2_corrected.csv", na = "")
+write_csv(batch1_corrected, "2026-July_EIM_batch-error-fix/EIM_2015_2024_batch1_corrected.csv", na = "")
+write_csv(batch2_corrected, "2026-July_EIM_batch-error-fix/EIM_2015_2024_batch2_corrected.csv", na = "")
 
 #Bonus/Scratch pad.
 # Extra exploration/confirmation of issues if desired. In reality, Beka completed a review of each error one by one prior to changing the dataframe. The reviews are below. ####
